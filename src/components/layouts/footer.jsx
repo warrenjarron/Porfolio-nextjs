@@ -49,7 +49,7 @@ const Footer = () => {
                 <p className={styles.skillsp1} > HTML5 / CSS  / javascript <br  /> React / nodejs / nextjs <br /> Tailwind.css / Webpack / Wordpress <br /> Photoshop /  illustrator / Figma / Pack office /
                 <h2 className={styles.skills2h2}>Soft skills</h2> 
                 <p className={styles.skills2p2}>
-                    Adaptabilité / Créativité / rigoureux / Patience / Déterminé / curieux / A l écoute / Coopératif
+                    Adaptabilité / Créativité / rigoureux / Patience / Déterminé / curieux / A l&apos;écoute / Coopératif
                 </p>
                 </p>
 
