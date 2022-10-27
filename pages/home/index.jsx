@@ -1,5 +1,5 @@
 import Layout from "../../src/components/layouts/layout";
-import Content from "./content";
+// import Content from "./content";
 // import  CurtainMenu  from "@src/components/layouts/CurtainMenu";
 // import Slider from "@src/components/js/slider";
 // import ExampleComponent from "@src/components/js/typeAnimation";
