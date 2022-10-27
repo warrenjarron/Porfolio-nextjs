@@ -23,14 +23,14 @@ const Footer = () => {
             <div className={styles.col1}>
                 {/*  Col 1 */}
                 <div className={styles.img}>
-                    <a href="https://github.com/warrenjarron" target="_blank">
+                    <a href="https://github.com/warrenjarron"  rel="noreferrer" target="_blank">
 
                 <Image src={svggit}   width="50px" height="50px"  />
                     </a>
                 </div>
                 {/* Col 2 */}
                 <div className={styles.img} >
-                    <a href="https://www.linkedin.com/in/warren-jarron/" target="_blank" >
+                    <a href="https://www.linkedin.com/in/warren-jarron/"  rel="noreferrer" target="_blank" >
 
                 <Image src={svglink}   width="50px" height="50px"/>
                     </a>
