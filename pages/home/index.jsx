@@ -9,14 +9,9 @@ import Footer from "@src/components/layouts/footer";
 const HomePage = () => {
   return (
     <>
-      
           <Name />
           <Footer />
-      {/* <ExampleComponent /> */}
-      {/* <Slider /> */}
-      {/* <CurtainMenu /> */}
-      {/* <button id="btn-1">click</button> */}
-      {/* <Layout children={<Content />} /> */}
+      
     </>
   );
 };

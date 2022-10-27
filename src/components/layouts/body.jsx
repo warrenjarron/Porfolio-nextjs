@@ -10,7 +10,7 @@ const Name = () => {
     return (
 <>
 <h1 className={styles.h1}>warren jarron</h1>
-<h2 className={styles.h2}>Développeur webb </h2>
+<h2 className={styles.h2}>Développeur web </h2>
 <div className="justify-center flex mt-16">
 
 <Image src={imgg}   width="200px" height="200x"/>
