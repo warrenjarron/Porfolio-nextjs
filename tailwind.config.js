@@ -11,6 +11,7 @@ module.exports = {
       },
       fontFamily: {
         raleway: ["raleway"],
+        great: ["Great Vibes", "cursives"],
         // josefinSans: ["josefin-sans"],
       },
     },

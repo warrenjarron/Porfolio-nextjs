@@ -9,8 +9,8 @@ import Footer from "@src/components/layouts/footer";
 const HomePage = () => {
   return (
     <>
-          <Name />
-          <Footer />
+    <Name />
+   <Footer />
       
     </>
   );
