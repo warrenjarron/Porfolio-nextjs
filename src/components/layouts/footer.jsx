@@ -34,7 +34,7 @@ let styles = {
   bg:"text-slate-900 text-xl text-center ",
   gridcols4:" grid md:grid-cols-2  pt-12 ",
   divflexcol:"grid  p-20 ",
-  techno:"uppercase border-r-4 border-slate-500 text-slate-500 " ,
+  techno:"uppercase border-r-4 border-slate-500 text-slate-500 text-4xl" ,
   imgPadding:"mt-10",
   // svgpHtml:"pt-8",
   // cssSvg:"pt-5",
@@ -84,7 +84,8 @@ const Footer = () => {
               src={pngcv}
               class="block w-full"
               alt="..."
-              height="900px"
+              width="999"
+              height="600px"
               />
                 </a>
               <div class="carousel-caption hidden md:block absolute text-center">
@@ -98,8 +99,8 @@ const Footer = () => {
             <Image
             src={pngagency}
             class="block w-full"
-            alt="..." width="2000px"
-            height="950px"
+            alt="..." width="999px"
+            height="600px"
             />
               </a>
         <div class="carousel-caption hidden md:block absolute text-center">
@@ -112,8 +113,8 @@ const Footer = () => {
 
         <Image
         src={pngshop}
-        width="2000px"
-        height="950px"
+        width="999px"
+        height="600px"
         />
         </a>
         <div class="carousel-caption hidden md:block absolute text-center">

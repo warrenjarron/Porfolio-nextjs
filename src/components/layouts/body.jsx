@@ -11,8 +11,9 @@ let styles = {
     // projet:" border-r-2 p-5 rounded-r-full text-white  mt-5 text-center w-52  hover:bg-slate-500",
     textcolor:"text-white font-raleway    text-start pl-2 p-3 w-72 border-2 border-slate-500 ",
     projet:"uppercase border-r-4 border-slate-500 text-slate-500  text-center mt-96 hover: flex justify-center hover:bg-slate-700 text-4xl" ,
-
-    
+    contact:"border-2 rounded-full p-2 mt-5 text-slate-500 border-slate-500",
+    war:"",
+    headerbloc:"justify-center"
 };
 const Name = () => {
     return (
@@ -27,13 +28,14 @@ const Name = () => {
 <option value="2">réalisation3</option>
 </select> */}
 
-<div className="justify-center flex mt-52 md:ml-24 md:h-52 ">
+<div className={styles.headerbloc}>
 
-<Image src={war} width="200px" height="300px"/>
+<Image className={StyleSheet.war} src={war} width="200px" height="300px"/>
 <div>
 <div>
 
 <p className={styles.textcolor}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi reprehenderit minima, deleniti tempora quod voluptates odit eum, asperiores rem error illo inventore at est minus culpa necessitatibus rerum? Nostrum, tempora?</p>
+<button className={styles.contact}>Contacter</button>
 </div>
 </div>
 </div>
