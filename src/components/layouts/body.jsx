@@ -9,11 +9,11 @@ let styles = {
     h2: "uppercase text-white font-raleway text-center mt-10 text-2xl ",
     imgg:"justify-center ",
     // projet:" border-r-2 p-5 rounded-r-full text-white  mt-5 text-center w-52  hover:bg-slate-500",
-    textcolor:"text-white font-raleway    text-start pl-2 p-3 w-72 border-2 border-slate-500 ",
+    textcolor:"text-white font-raleway    text-start pl-2 p-3 lg:w-72 w-60 border-2 border-slate-500 lg:ml-52 md:ml-10 ",
     projet:"uppercase border-r-4 border-slate-500 text-slate-500  text-center mt-96 hover: flex justify-center hover:bg-slate-700 text-4xl" ,
-    contact:"border-2 rounded-full p-2 mt-5 text-slate-500 border-slate-500",
-    war:"",
-    headerbloc:"justify-center"
+    contact:"border-2 rounded-full p-2 mt-5 text-white border-slate-500 lg:ml-52 md:ml-10",
+    war:"ml-24",
+    headerbloc:"justify-center lg:grid grid-cols-3 mt-52 md:w-8/12 ml-5 items-center lg:w-96"
 };
 const Name = () => {
     return (
@@ -30,7 +30,7 @@ const Name = () => {
 
 <div className={styles.headerbloc}>
 
-<Image className={StyleSheet.war} src={war} width="200px" height="300px"/>
+<Image className={styles.war} src={war} width="250px" height="300px"/>
 <div>
 <div>
 
