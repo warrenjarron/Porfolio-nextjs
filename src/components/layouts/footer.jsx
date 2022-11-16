@@ -50,7 +50,7 @@ let styles = {
   link:"uppercase text-4xl text-slate-500 border-t-4 border-slate-500 mt-52 ",
   compet:"text-slate-500 mt-52 text-4xl uppercase shadow-slate-200 shadow-lg flex justify-center p-5",
   gridcol3P:"lg:grid lg:grid-cols-3",
-  footC:"text-slate-500 border-2 border-slate-500",
+  footC:"text-slate-500 border-t-2 border-slate-500",
  
 
 
