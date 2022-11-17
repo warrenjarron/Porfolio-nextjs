@@ -30,7 +30,7 @@ let styles = {
   skills2h2:"uppercase text-center border-2 border-slate-900 mt-10 ",
   skills2p2:"text-center p-7 text-slate-500 sm:w-6/12 lg:w-11/12",
   footer:"justify-center  text-center mt-96 ",
-  img:" h-auto ",
+  img:" h-auto hover:rotate-6 transition duration-150 ",
   bg:"text-slate-900 text-xl text-center ",
   gridcols4:" lg:grid lg:grid-cols-2  pt-12 ",
   gridcols2:" lg:grid lg:grid-cols-3  pt-12 ",
@@ -310,14 +310,14 @@ const Footer = () => {
              
                 <div className={styles.img}>
                     <a href="https://github.com/warrenjarron"  rel="noreferrer" target="_blank">
-
+                  @WarrenJarron
                 <Image src={svggit}   width="50px" height="30px"  />
                     </a>
                 </div>
                 {/* Col 2 */}
                 <div className={styles.img} >
                     <a href="https://www.linkedin.com/in/warren-jarron/"  rel="noreferrer" target="_blank" >
-@Warrenjarron
+                    @WarrenJarron
                 <Image src={svglink}   width="50%" height="30px"/>
                     </a>
                 </div>
