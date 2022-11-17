@@ -22,7 +22,7 @@ import svgoffice from "@src/assets/img/microsoft-office.svg";
 
 let styles = {
   docimg:"",
-  col1:"text-white lg:grid lg:grid-cols-3  text-center p-10  mt-52 border-4  border-slate-500",
+  col1:"text-white lg:grid lg:grid-cols-4  text-center p-10  mt-52 border-4  border-slate-500",
   skills1:"    grid  rounded-xl text-slate-900 mt-20 ",
   skillsh1:"uppercase text-center text-xl pt-5 ",
   skillsh2:"uppercase text-center border-2 border-slate-900 mt-10 ",
@@ -35,8 +35,9 @@ let styles = {
   gridcols4:" lg:grid lg:grid-cols-2  pt-12 ",
   gridcols2:" lg:grid lg:grid-cols-3  pt-12 ",
   divflexcol:"   ",
-  techno:"uppercase border-r-4 border-slate-500 text-slate-500 text-2xl flex flex-col" ,
+  techno:"uppercase border-r-4 border-slate-500 text-slate-500 text-2xl flex flex-col hover:text-yellow-200" ,
   imgPadding:"mt-10",
+  mail:"hover:text-yellow-200",
   // svgpHtml:"pt-8",
   // cssSvg:"pt-5",
   // jsSvg:"pt-5",
@@ -46,11 +47,13 @@ let styles = {
   // tailSvg:"pt-5",
   Padding:"pt-5",
   Paddingnext:"pt-5 bg-white",
-  soft:"uppercase border-r-4 border-slate-500 text-slate-500 text-2xl flex flex-col h-auto" ,
+  soft:"uppercase border-r-4 border-slate-500 text-slate-500 text-2xl flex flex-col h-auto hover:text-yellow-200" ,
   link:"uppercase text-4xl text-slate-500 border-t-4 border-slate-500 mt-52 ",
-  compet:"text-slate-500 mt-52 text-4xl uppercase shadow-slate-200 shadow-lg flex justify-center p-5",
+  compet:"text-slate-500 mt-52 text-4xl uppercase shadow-slate-200 shadow-lg hover:shadow-lg hover:shadow-yellow-200 flex justify-center p-5 hover:text-yellow-200",
   gridcol3P:"lg:grid lg:grid-cols-3",
   footC:"text-slate-500 border-t-2 border-slate-500",
+  phone:"hover:text-yellow-200",
+  fontA:"mt-52 text-slate-500",
  
 
 
@@ -148,10 +151,10 @@ const Footer = () => {
   </button>
 </div> */}
 
-<div className=" lg:grid lg:grid-cols-3">
+<div className=" lg:grid lg:grid-cols-3 ">
   
-<div class="flex justify-center mt-10 ml-5">
-  <div class="rounded-lg shadow-lg shadow-black max-w-sm">
+<div class="flex justify-center mt-10 lg:ml-2 ">
+  <div class="rounded-lg shadow-lg shadow-black max-w-sm hover:shadow-lg hover:shadow-yellow-200">
     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
       <Image src={pngagency} class="rounded-t-lg"  alt=""/>
     </a>
@@ -165,8 +168,8 @@ const Footer = () => {
   </div>
 </div>
 
-<div class="flex justify-center mt-10 ml-5">
-  <div class="rounded-lg shadow-lg shadow-black bg-slate-900 max-w-sm">
+<div class="flex justify-center mt-10 lg:ml-2">
+  <div class="rounded-lg shadow-lg shadow-black bg-slate-900 max-w-sm hover:shadow-lg hover:shadow-yellow-200">
     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
       <Image src={pngshop} class="rounded-t-lg"  alt=""/>
     </a>
@@ -175,12 +178,12 @@ const Footer = () => {
       <p class="text-gray-600 text-base mb-4">
       Création d'une boutique depuis un CMS (Wordpress) en groupe.
       </p>
-      <button type="button" class=" inline-block px-6 py-2.5 border-2 border-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-400 hover:shadow-lg focus:bg-bslate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">voir</button>
+      <button type="button" class=" w  inline-block px-6 py-2.5 border-2 border-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-400 hover:shadow-lg focus:bg-bslate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">voir</button>
     </div>
   </div>
 </div>
-<div class="flex justify-center mt-10 ">
-  <div class="rounded-lg shadow-lg shadow-black  max-w-sm">
+<div class="flex justify-center mt-10 lg:ml-2 mr-2">
+  <div class="rounded-lg shadow-lg shadow-black  max-w-sm hover:shadow-lg hover:shadow-yellow-200">
     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
       <Image src={pngcv} class="rounded-t-lg"  alt=""/>
     </a>
@@ -284,9 +287,12 @@ const Footer = () => {
                     Adaptabilité / Créativité / rigoureux / Patience / Déterminé  <br />/ curieux / a l&apos;écoute / Coopératif </p>
             </div>
            
-                
+            <div className={styles.fontA} id="contacte">
+            <i class="fa-solid fa-link text-7xl hover:text-yellow-200"></i>
+            </div>
             <div className={styles.col1}>
                 {/*  Col 1 */}
+             
                 <div className={styles.img}>
                     <a href="https://github.com/warrenjarron"  rel="noreferrer" target="_blank">
 
@@ -305,13 +311,14 @@ const Footer = () => {
                 <Image src={svgcv}   width="30%" height="30px"  />
                 <div className={styles.footC}>
 
-                <a href="mailto:warrenj.jarron@gmail.com">warrenj.jarron@gmail.com</a>
-                <br /><a href="tel:0658956410">Tél:0658956410</a>
+                <a className={styles.mail} href="mailto:warrenj.jarron@gmail.com">warrenj.jarron@gmail.com</a>
+                <br /><a className={styles.phone} href="tel:0658956410"><i class=" fa-solid fa-phone"></i>   </a>
+                
                 </div>
                 </div>
             </div>
 
-           
+            
                 
                 <div  data-aos="zoom-in" class="">
            </div>

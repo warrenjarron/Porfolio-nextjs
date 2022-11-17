@@ -1,11 +1,12 @@
 let styles = {
-    projet:"uppercase border-r-4 border-slate-500 text-slate-500  text-center mt-96 hover: flex justify-center hover:bg-slate-700 text-4xl" ,
+    projet:"uppercase border-r-4 border-slate-500 text-slate-500  text-center mt-52 hover: flex justify-center hover:text-yellow-200 text-4xl" ,
     };
     const Projet = () => {
         return (
        <>
-  <div >
-    <h1  className={styles.projet}>Mes Projet</h1>
+  <div className="text-center" >
+  <i class="fa-solid fa-diagram-project mt-52 text-7xl  text-slate-500  justify-center hover:shadow-lg hover:shadow-yellow-200"></i>
+    <h1  className={styles.projet}>   Mes Projet</h1>
 </div>
        </>
        
