@@ -1,6 +1,4 @@
 import Image from "next/image";
-import imgg from "@src/assets/img/quality-content.png";
-import moji from "@src/assets/img/warren-bitmoji.svg";
 import war from "@src/assets/img/laptop wave.png";
 import Typing from "@src/components/layouts/typeAnimation";
 import { ProductionQuantityLimitsRounded } from "@mui/icons-material";
@@ -25,18 +23,10 @@ const Name = () => {
 <h2 className={styles.h2}>Développeur web&nbsp;<Typing />
 </h2>
 
-{/* <select className={styles.projet} name="Mes projet" id="">Mes projet
-<option value="1">Mes projet</option>
-<option value="2">réalisation2</option>
-<option value="2">réalisation3</option>
-</select> */}
-
 <div  className={styles.headerbloc}>
-
 <Image  className={styles.war} src={war} width="250px" height="300px"/>
 <div>
 <div>
-
 <p className={styles.textcolor}>Bienvenue sur Mon portfolio, je suis Warren jarron, Actuellement je suis une formation de développeur web et web  mobile chez l&rsquo;ACS (Access Code School).    </p>
 <a href="#contacte">
 
@@ -49,10 +39,6 @@ const Name = () => {
 </div>
 </div>
 </div>
-
-
-
-
 </>
  
     )     
