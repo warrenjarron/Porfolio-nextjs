@@ -1,4 +1,4 @@
-import Layout from "@src/components/layouts/layout";
+
 import Name from "@src/components/layouts/body";
 import Footer from "@src/components/layouts/footer";
 import Me from "@src/components/layouts/propos";
