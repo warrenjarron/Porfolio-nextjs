@@ -50,8 +50,6 @@ let styles = {
   user:"text-center mt-60 text-7xl text-slate-500   hover:rotate-6 transition duration-150",
   compfont:"text-7xl mt-60 text-slate-500 ",
  
-
-
 };
 const Footer = () => {
   return (

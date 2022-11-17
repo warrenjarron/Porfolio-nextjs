@@ -3,7 +3,7 @@ import Footer from "./footer"
 
 let styles = {
     main: "min-h-screen",
-}
+};
 
 const Layout = ({ children }) => {
     return (
