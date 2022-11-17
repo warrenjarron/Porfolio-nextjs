@@ -38,13 +38,6 @@ let styles = {
   techno:"uppercase border-r-4 border-slate-500 text-slate-500 text-2xl flex flex-col hover:text-yellow-200" ,
   imgPadding:"mt-10 hover:rotate-6 transition duration-150 hover:bg-yellow-100 ",
   mail:"hover:text-yellow-200",
-  // svgpHtml:"pt-8",
-  // cssSvg:"pt-5",
-  // jsSvg:"pt-5",
-  // reactSvg:"pt-5",
-  // nodeSvg:"pt-5",
-  // nextSvg:"pt-5",
-  // tailSvg:"pt-5",
   Padding:"pt-5",
   Paddingnext:"pt-5 bg-white hover:rotate-6 transition duration-150 hover:shadow-lg hover:shadow-yellow-200",
   soft:"uppercase border-r-4 border-slate-500 text-slate-500 text-2xl flex flex-col h-auto hover:text-yellow-200 " ,
@@ -55,7 +48,7 @@ let styles = {
   phone:"hover:text-yellow-200",
   fontA:"mt-52 text-slate-500 hover:rotate-90 transition duration-150",
   user:"text-center mt-60 text-7xl text-slate-500   hover:rotate-6 transition duration-150",
-  compfont:"text-7xl mt-60 text-slate-500 "
+  compfont:"text-7xl mt-60 text-slate-500 ",
  
 
 
