@@ -52,7 +52,7 @@ let styles = {
  
 
 
-}
+};
 const Footer = () => {
   return (
     <footer className={styles.footer}>
