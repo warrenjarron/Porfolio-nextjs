@@ -23,10 +23,6 @@ export default function Document() {
       <body className="font-josefin bg-slate-900 ">
         <Main />
         <NextScript />
-        {/* <script defer src="bower_components/aos/dist/aos.js"></script>
-        <script defer>
-    AOS.init();
-    </script> */}
       </body>
     </Html>
   );
