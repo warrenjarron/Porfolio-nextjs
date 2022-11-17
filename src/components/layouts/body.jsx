@@ -41,9 +41,9 @@ const Name = () => {
 </div>
 </>
  
-    )     
+    );     
 
-}
+};
 
 
 export default Name;

@@ -10,7 +10,7 @@ let styles = {
 </div>
        </>
        
-      )
-    }
+      );
+    };
     
     export default Projet;
