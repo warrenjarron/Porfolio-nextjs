@@ -37,7 +37,7 @@ const Name = () => {
 <div>
 <div>
 
-<p className={styles.textcolor}>Bienvenue sur Mon portfolio, je suis Warren jarron, Actuellement je suis une formation de développeur web et web  mobile chez l'ACS (Access Code School).    </p>
+<p className={styles.textcolor}>Bienvenue sur Mon portfolio, je suis Warren jarron, Actuellement je suis une formation de développeur web et web  mobile chez l&rsquo;ACS (Access Code School).    </p>
 <a href="#contacte">
 
 <button className={styles.contact}>contacter</button>

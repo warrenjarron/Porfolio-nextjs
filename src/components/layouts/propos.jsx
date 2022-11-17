@@ -18,7 +18,7 @@ const Me = () => {
 <h1 className={styles.h1} id="a propos">
   à Propos
 </h1>
-<p className={styles.p}>j'ai 21 ans j'habite a meaux (77). Avant cette formation j'ai fait une formation qui est  openclassroom pendant 4 mois dans le développement web. Je recherche actuellement un stage du 9 janvier au 3 mars 2023 pour finaliser ma formation et gagné en compêtences. </p>
+<p className={styles.p}>j&rsquo;ai 21 ans j&rsquo;habite a meaux (77). Avant cette formation j&rsquo;ai fait une formation qui est  openclassroom pendant 4 mois dans le développement web. Je recherche actuellement un stage du 9 janvier au 3 mars 2023 pour finaliser ma formation et gagné en compêtences. </p>
 <a target="_blank" href="../../assets/img/warren jarron cv développeur web (4).pdf">
 
 <button className={styles.cv}>Mon    CV   </button>

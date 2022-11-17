@@ -178,7 +178,7 @@ const Footer = () => {
     <div class="p-6">
       <h5 class="text-gray-500 text-xl font-medium mb-2"> accueil de la boutique</h5>
       <p class="text-gray-600 text-base mb-4">
-      Création d'une boutique depuis un CMS (Wordpress) en groupe.
+      Création d&rsquo;une boutique depuis un CMS (Wordpress) en groupe.
       </p>
       <a href="https://wana-agency.netlify.app/">
 
@@ -193,7 +193,7 @@ const Footer = () => {
       <Image src={pngcv} class="rounded-t-lg"  alt=""/>
     </a>
     <div class="p-6">
-      <h5 class="text-gray-500 text-xl font-medium mb-2">Création d'un cv </h5>
+      <h5 class="text-gray-500 text-xl font-medium mb-2">Création d&rsquo;un cv </h5>
       <p class="text-gray-600 text-base mb-4">
       Site fait en HTML5 CSS3 vanilla sans tailwind.css.
       </p>
@@ -317,7 +317,7 @@ const Footer = () => {
                 {/* Col 2 */}
                 <div className={styles.img} >
                     <a href="https://www.linkedin.com/in/warren-jarron/"  rel="noreferrer" target="_blank" >
-
+@Warrenjarron
                 <Image src={svglink}   width="50%" height="30px"/>
                     </a>
                 </div>
@@ -332,6 +332,7 @@ const Footer = () => {
 
                 <a className={styles.mail} href="mailto:warrenj.jarron@gmail.com">warrenj.jarron@gmail.com</a>
                 <br /><a className={styles.phone} href="tel:0658956410"><i class=" fa-solid fa-phone text-xl mt-10 hover:rotate-90 transition duration-150"></i>   </a>
+                
                 
                 </div>
             </div>
