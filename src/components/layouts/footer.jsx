@@ -34,9 +34,9 @@ let styles = {
   bg:"text-slate-900 text-xl text-center ",
   gridcols4:" lg:grid lg:grid-cols-2  pt-12 ",
   gridcols2:" lg:grid lg:grid-cols-3  pt-12 ",
-  divflexcol:"   ",
+  divflexcol:"",
   techno:"uppercase border-r-4 border-slate-500 text-slate-500 text-2xl flex flex-col hover:text-yellow-200" ,
-  imgPadding:"mt-10",
+  imgPadding:"mt-10 hover:rotate-6 transition duration-150 hover:bg-yellow-100 ",
   mail:"hover:text-yellow-200",
   // svgpHtml:"pt-8",
   // cssSvg:"pt-5",
@@ -46,14 +46,16 @@ let styles = {
   // nextSvg:"pt-5",
   // tailSvg:"pt-5",
   Padding:"pt-5",
-  Paddingnext:"pt-5 bg-white",
-  soft:"uppercase border-r-4 border-slate-500 text-slate-500 text-2xl flex flex-col h-auto hover:text-yellow-200" ,
+  Paddingnext:"pt-5 bg-white hover:rotate-6 transition duration-150 hover:shadow-lg hover:shadow-yellow-200",
+  soft:"uppercase border-r-4 border-slate-500 text-slate-500 text-2xl flex flex-col h-auto hover:text-yellow-200 " ,
   link:"uppercase text-4xl text-slate-500 border-t-4 border-slate-500 mt-52 ",
   compet:"text-slate-500 mt-52 text-4xl uppercase shadow-slate-200 shadow-lg hover:shadow-lg hover:shadow-yellow-200 flex justify-center p-5 hover:text-yellow-200",
   gridcol3P:"lg:grid lg:grid-cols-3",
   footC:"text-slate-500 border-t-2 border-slate-500",
   phone:"hover:text-yellow-200",
-  fontA:"mt-52 text-slate-500",
+  fontA:"mt-52 text-slate-500 hover:rotate-90 transition duration-150",
+  user:"text-center mt-60 text-7xl text-slate-500   hover:rotate-6 transition duration-150",
+  compfont:"text-7xl mt-60 text-slate-500 "
  
 
 
@@ -168,7 +170,7 @@ const Footer = () => {
   </div>
 </div>
 
-<div class="flex justify-center mt-10 lg:ml-2">
+<div class="flex justify-center mt-10 lg:ml-3">
   <div class="rounded-lg shadow-lg shadow-black bg-slate-900 max-w-sm hover:shadow-lg hover:shadow-yellow-200">
     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
       <Image src={pngshop} class="rounded-t-lg"  alt=""/>
@@ -178,11 +180,14 @@ const Footer = () => {
       <p class="text-gray-600 text-base mb-4">
       Création d'une boutique depuis un CMS (Wordpress) en groupe.
       </p>
+      <a href="https://wana-agency.netlify.app/">
+
       <button type="button" class=" w  inline-block px-6 py-2.5 border-2 border-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-400 hover:shadow-lg focus:bg-bslate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">voir</button>
+      </a>
     </div>
   </div>
 </div>
-<div class="flex justify-center mt-10 lg:ml-2 mr-2">
+<div class="flex justify-center mt-10 lg:ml-2 lg:mr-3">
   <div class="rounded-lg shadow-lg shadow-black  max-w-sm hover:shadow-lg hover:shadow-yellow-200">
     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
       <Image src={pngcv} class="rounded-t-lg"  alt=""/>
@@ -192,10 +197,17 @@ const Footer = () => {
       <p class="text-gray-600 text-base mb-4">
       Site fait en HTML5 CSS3 vanilla sans tailwind.css.
       </p>
+      <a href="https://warren-jarron-cv.netlify.app/">
+
       <button type="button" class=" inline-block px-6 py-2.5 border-2 border-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-400 hover:shadow-lg focus:bg-slate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-slate-500 active:shadow-lg transition duration-150 ease-in-out">voir</button>
+      </a>
     </div>
   </div>
 </div>
+</div>
+<div className={styles.compfont}>
+
+<i class="fa-solid fa-head-side-virus  hover:text-yellow-200 hover:shadow-lg hover:shadow-yellow-200 hover:rotate-6 transition duration-150"></i>
 </div>
                   <h1 className={styles.compet}>Compêtences</h1>
                 <div  className={styles.gridcols4}>
@@ -207,7 +219,7 @@ const Footer = () => {
                     
                     <div className={styles.Padding}>
                        
-                  <Image className={svghtml} src={svghtml} width="50%" height="40px" />
+                  <Image className={styles.imgPadding} src={svghtml} width="50%" height="40px" />
                     </div>
                       
                     <div className={styles.Padding}>
@@ -279,9 +291,12 @@ const Footer = () => {
                   </div>
 
                 </div>
-            
-            <div className={styles.gridcols2} >
+                <div className={styles.user}>
 
+                <i class="fa-solid fa-address-book hover:rotate-90 transition duration-150 hover:text-yellow-200 hover:shadow-lg hover:shadow-yellow-200"></i>
+                </div>
+            <div className={styles.gridcols2} >
+           
                 <h1 className={styles.soft}>Soft skills</h1> 
                 <p className={styles.skills2p2}>
                     Adaptabilité / Créativité / rigoureux / Patience / Déterminé  <br />/ curieux / a l&apos;écoute / Coopératif </p>
@@ -308,19 +323,22 @@ const Footer = () => {
                 </div>
                 {/* Col 3 */}
                 <div className={styles.img}>
+                  <a href="https://warren-jarron-cv.netlify.app/" rel="noreferrer" target="_blank">
+
                 <Image src={svgcv}   width="30%" height="30px"  />
+                  </a>
+                </div>
                 <div className={styles.footC}>
 
                 <a className={styles.mail} href="mailto:warrenj.jarron@gmail.com">warrenj.jarron@gmail.com</a>
-                <br /><a className={styles.phone} href="tel:0658956410"><i class=" fa-solid fa-phone"></i>   </a>
+                <br /><a className={styles.phone} href="tel:0658956410"><i class=" fa-solid fa-phone text-xl mt-10 hover:rotate-90 transition duration-150"></i>   </a>
                 
-                </div>
                 </div>
             </div>
 
             
                 
-                <div  data-aos="zoom-in" class="">
+                <div   class="">
            </div>
             
 </footer>

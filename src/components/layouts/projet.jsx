@@ -5,7 +5,7 @@ let styles = {
         return (
        <>
   <div className="text-center" >
-  <i class="fa-solid fa-diagram-project mt-52 text-7xl  text-slate-500  justify-center hover:shadow-lg hover:shadow-yellow-200"></i>
+  <i class="fa-solid fa-diagram-project mt-52 text-7xl  text-slate-500  justify-center hover:shadow-lg hover:shadow-yellow-200 hover:rotate-90 transition duration-150"></i>
     <h1  className={styles.projet}>   Mes Projet</h1>
 </div>
        </>

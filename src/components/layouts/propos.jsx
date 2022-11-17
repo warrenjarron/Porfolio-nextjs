@@ -12,7 +12,7 @@ const Me = () => {
 
 <div className={styles.fontP}>
 
-   <i class="fa-solid fa-address-card text-slate-500 text-7xl  mt-64 hover:text-yellow-200 hover:shadow-lg hover:shadow-yellow-200 "></i>
+   <i class="fa-solid fa-address-card text-slate-500 text-7xl  mt-64 hover:text-yellow-200 hover:shadow-lg hover:shadow-yellow-200 hover:rotate-90 transition duration-150"></i>
 </div>
    <div  className={styles.gridcols4}>
 <h1 className={styles.h1} id="a propos">
