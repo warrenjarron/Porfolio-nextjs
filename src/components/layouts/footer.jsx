@@ -15,7 +15,7 @@ import svgnext from "@src/assets/img/nextjs.svg";
 import svgtailwind from "@src/assets/img/tailwindcss.svg";
 import svgwebpack from "@src/assets/img/webpack.svg";
 import svgwordpress from "@src/assets/img/wordpress.svg";
-// import svgphotoshop from "@src/assets/img/photoshop.svg";
+import svgphotoshop from "@src/assets/img/photoshop.svg";
 import svgillustrator from "@src/assets/img/illustrator.svg";
 import svgfigma from "@src/assets/img/figma.svg";
 import svgoffice from "@src/assets/img/microsoft-office.svg";
