@@ -19,7 +19,8 @@ const Name = () => {
     return (
 <>
 <h1 className={styles.h1}>warren jarron </h1>
-<h2 className={styles.h2}>Développeur web&nbsp;<Typing />
+<h2 className={styles.h2}><span className="text-yellow-200">D</span>éveloppeur we<span className="text-yellow-200">b</span>&nbsp;<span className="text-yellow-200"><Typing />
+    </span>
 </h2>
 
 <div data-aos="fade-right" data-aos-once="false" className={styles.headerbloc}>
