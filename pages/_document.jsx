@@ -22,7 +22,7 @@ export default function Document() {
 <script defer>AOS.init();</script>
 
    </Head>
-      <body className="font-josefin bg-slate-900">
+      <body className="font-josefin bg-slate-900 overflow-x-hidden">
         <Main />
         <NextScript />
       </body>

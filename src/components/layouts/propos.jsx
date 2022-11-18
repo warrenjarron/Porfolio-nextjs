@@ -1,3 +1,6 @@
+import Image from "next/image";
+import warrenfly from "@src/assets/img/sticker.png";
+
 
 let styles = {
 h1:"text-slate-500 border-r-2 border-slate-500  uppercase text-center text-4xl  hover:text-yellow-200 mt-10",
@@ -12,14 +15,15 @@ const Me = () => {
 
 <div data-aos="fade-right" data-aos-once="false"  className={styles.fontP}>
 
-   <i data-aos="fade-right" data-aos-once="false"  class="fa-solid fa-address-card text-slate-500 text-7xl  mt-64 hover:text-yellow-200 hover:shadow-lg hover:shadow-yellow-200 hover:rotate-90 transition duration-150"></i>
+   <i  class="fa-solid fa-address-card text-slate-500 text-7xl  mt-64 hover:text-yellow-200 hover:shadow-lg hover:shadow-yellow-200 hover:rotate-90 transition duration-150"></i>
 </div>
    <div data-aos="fade-right" data-aos-once="false"  className={styles.gridcols4}>
-<h1 className={styles.h1} id="a propos">
+<h1 className={styles.h1} id="a propos"> 
   à Propos
 </h1>
 <p className={styles.p}>j&rsquo;ai 21 ans j&rsquo;habite a meaux (77). Avant cette formation j&rsquo;ai fait une formation qui est  openclassroom pendant 4 mois dans le développement web. Je recherche actuellement un stage du 9 janvier au 3 mars 2023 pour finaliser ma formation et gagné en compêtences. </p>
-<a target="_blank" href="../../assets/img/warren jarron cv développeur web.pdf">
+<Image src={warrenfly} height="" />
+<a target="_blank" href="/docs/warren-jarron-cv-développeur-web.pdf">
 
 <button className={styles.cv}>Mon    CV   </button>
 </a>

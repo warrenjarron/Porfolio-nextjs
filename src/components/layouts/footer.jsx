@@ -15,10 +15,12 @@ import svgnext from "@src/assets/img/nextjs.svg";
 import svgtailwind from "@src/assets/img/tailwindcss.svg";
 import svgwebpack from "@src/assets/img/webpack.svg";
 import svgwordpress from "@src/assets/img/wordpress.svg";
-import svgphotoshop from "@src/assets/img/photoshop.svg";
+// import svgphotoshop from "@src/assets/img/photoshop.svg";
 import svgillustrator from "@src/assets/img/illustrator.svg";
 import svgfigma from "@src/assets/img/figma.svg";
 import svgoffice from "@src/assets/img/microsoft-office.svg";
+import cosmonote from "@src/assets/img/spacesuit-float.png";
+import cosmoread from "@src/assets/img/space-suit-reading.png";
 
 let styles = {
   docimg:"",
@@ -59,7 +61,7 @@ const Footer = () => {
 <div data-aos="zoom-in-down" data-aos-once="false"  className=" lg:grid lg:grid-cols-3 ">
   
 <div class="flex justify-center mt-10 lg:ml-5 lg:mb-5 lg:mr-5">
-  <div class="rounded-lg shadow-lg shadow-black max-w-sm hover:shadow-lg hover:shadow-yellow-200">
+  <div class="rounded-lg shadow-lg shadow-black bg-slate-900 max-w-sm hover:shadow-lg hover:shadow-yellow-200">
     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
       <Image src={pngagency} class="rounded-t-lg"  alt=""/>
     </a>
@@ -93,7 +95,7 @@ const Footer = () => {
   </div>
 </div>
 <div class="flex justify-center mt-10 lg:mb-5 lg:mr-5">
-  <div class="rounded-lg shadow-lg shadow-black  max-w-sm hover:shadow-lg hover:shadow-yellow-200">
+  <div class="rounded-lg shadow-lg shadow-black bg-slate-900 max-w-sm hover:shadow-lg hover:shadow-yellow-200">
     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
       <Image src={pngcv} class="rounded-t-lg"  alt=""/>
     </a>
@@ -114,8 +116,8 @@ const Footer = () => {
 
 <i  class="fa-solid fa-head-side-virus  hover:text-yellow-200 hover:shadow-lg hover:shadow-yellow-200 hover:rotate-6 transition duration-150"></i>
                   </div>
-
                   <h1 data-aos="zoom-in" data-aos-once="false" className={styles.compet}>Compêtences</h1>
+                  <Image src={cosmoread} width="250px" height="300px" />
                 <div className="flex  justify-center"  data-aos="fade-up-right" data-aos-once="false" >
                   <h1 className={styles.techno}>
                     Technologie utilisé
@@ -218,8 +220,8 @@ const Footer = () => {
                 <p className={styles.skills2p2}>
                     Adaptabilité / Créativité / rigoureux / Patience / Déterminé  <br />/ curieux / a l&apos;écoute / Coopératif </p>
             </div>
-           
             <div className={styles.fontA} id="contacte">
+             <Image src={cosmonote} width="250px" height="300px" className="" />
             <i data-aos="zoom-in-down" data-aos-once="false" class="fa-solid fa-link text-7xl flex justify-center hover:text-yellow-200"></i>
             </div>
             <div data-aos="zoom-out-right" data-aos-once="false"  className={styles.col1}>
