@@ -3,7 +3,7 @@ import warrenfly from "@src/assets/img/sticker.png";
 
 
 let styles = {
-h1:"text-slate-500 border-r-2 border-slate-500  uppercase text-center text-4xl  hover:text-yellow-200 mt-10",
+h1:"text-slate-500 border-r-2 border-slate-500  uppercase text-center text-4xl lg:text-7xl hover:text-yellow-200 mt-10",
 gridcols4:" lg:grid lg:grid-cols-2  pt-12 mt-52 text-center",
 p:"text-slate-500 pl-5 text-start mt-10 w-72 text-lg",
 fontP:"text-center",

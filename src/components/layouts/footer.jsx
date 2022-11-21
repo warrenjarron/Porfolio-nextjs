@@ -43,9 +43,9 @@ let styles = {
   mail:"hover:text-yellow-200",
   Padding:" pt-5",
   Paddingnext:"pt-5 bg-white  hover:rotate-6 transition duration-150 hover:shadow-lg hover:shadow-yellow-200 p-5",
-  soft:"uppercase border-r-4 border-slate-500 text-slate-500 text-2xl flex flex-col h-auto hover:text-yellow-200 " ,
+  soft:"uppercase border-r-4 border-slate-500 text-slate-500 text-2xl flex flex-col h-auto hover:text-yellow-200 lg:text-7xl" ,
   link:"uppercase text-4xl text-slate-500 border-t-4 border-slate-500 mt-52 ",
-  compet:"text-slate-500 mt-52 text-4xl uppercase   justify-center p-5 hover:text-yellow-200",
+  compet:"text-slate-500 mt-52 text-4xl uppercase lg:text-7xl  justify-center p-5 hover:text-yellow-200",
   gridcol3P:"",
   footC:"text-slate-500 border-t-2 border-slate-500",
   phone:"hover:text-yellow-200",
@@ -58,7 +58,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
     
-<div data-aos="zoom-in-down" data-aos-once="false"  className=" lg:grid lg:grid-cols-3 ">
+          <div data-aos="zoom-in-down" data-aos-once="false"  className=" lg:grid lg:grid-cols-3 ">
   
 <div class="flex justify-center mt-10 lg:ml-5 lg:mb-5 lg:mr-5">
   <div class="rounded-lg shadow-lg shadow-black bg-slate-900 max-w-sm hover:shadow-lg hover:shadow-yellow-200">
@@ -111,10 +111,10 @@ const Footer = () => {
     </div>
   </div>
 </div>
-</div>
-<div className={styles.compfont}>
+            </div>
+            <div className={styles.compfont}>
 
-<i  class="fa-solid fa-head-side-virus  hover:text-yellow-200 hover:shadow-lg hover:shadow-yellow-200 hover:rotate-6 transition duration-150"></i>
+          <i  class="fa-solid fa-head-side-virus  hover:text-yellow-200 hover:shadow-lg hover:shadow-yellow-200 hover:rotate-6 transition duration-150"></i>
                   </div>
                   <h1 data-aos="zoom-in" data-aos-once="false" className={styles.compet}>Compêtences</h1>
                   <Image src={cosmoread} width="250px" height="300px" />
@@ -282,13 +282,13 @@ const Footer = () => {
       />
     </div>
 
-    <div class="flex justify-center">
-  <div class="mb-3 xl:w-96 bg">
-    <label for="exampleFormControlTextarea1" class="form-label inline-block mb-2 text-gray-700"
-      ></label
+        <div class="flex justify-center">
+        <div class="mb-3 xl:w-96 bg">
+          <label for="exampleFormControlTextarea1" class="form-label inline-block mb-2 text-gray-700"
+          ></label
     >
-    <textarea
-      class="
+          <textarea
+            class="
         form-control
         block
         w-full
@@ -303,17 +303,16 @@ const Footer = () => {
         transition
         ease-in-out
         m-0
-        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
-      "
-      id="exampleFormControlTextarea1"
-      rows="3"
-      placeholder="message"
-    ></textarea>
-      <button type="button" class="inline-block px-6 py-2 border-2 border-slate-500 text-slate-500 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out mt-5">Envoyer</button>
-  </div>
-</div>
-  </div>
-</div>
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+            id="exampleFormControlTextarea1"
+          rows="3"
+          placeholder="message"
+        ></textarea>
+          <button type="button" class="inline-block px-6 py-2 border-2 border-slate-500 text-slate-500 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out mt-5">Envoyer</button>
+        </div>
+          </div>
+            </div>
+            </div>
             <div className={styles.fontA} id="contacte">
             <i data-aos="zoom-in-down" data-aos-once="false" class="fa-solid fa-link text-7xl flex justify-center hover:text-yellow-200"></i>
             </div>
@@ -350,8 +349,8 @@ const Footer = () => {
             </div>
             
 </footer>
-
-      
-  );
- };
+  )
+  
+ 
+}
           export default Footer;
