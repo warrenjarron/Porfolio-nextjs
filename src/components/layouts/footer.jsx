@@ -55,7 +55,9 @@ let styles = {
  
 };
 const Footer = () => {
+
   return (
+    
     <footer className={styles.footer}>
     
           <div data-aos="zoom-in-down" data-aos-once="false"  className=" lg:grid lg:grid-cols-3 ">
@@ -63,7 +65,7 @@ const Footer = () => {
 <div class="flex justify-center mt-10 lg:ml-5 lg:mb-5 lg:mr-5">
   <div class="rounded-lg shadow-lg shadow-black bg-slate-900 max-w-sm hover:shadow-lg hover:shadow-yellow-200">
     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-      <Image src={pngagency} class="rounded-t-lg"  alt=""/>
+      <Image src={pngagency} class="rounded-t-lg"/>
     </a>
     <div class="">
       <h5 class="text-gray-500 text-xl font-medium mb-2">Projet Wana agency</h5>
@@ -80,7 +82,7 @@ const Footer = () => {
 <div class="flex justify-center mt-10 lg:mb-5 lg:mr-5">
   <div class="rounded-lg shadow-lg shadow-black bg-slate-900 max-w-sm hover:shadow-lg hover:shadow-yellow-200">
     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-      <Image src={pngshop} class="rounded-t-lg"  alt=""/>
+      <Image src={pngshop} class="rounded-t-lg"/>
     </a>
     <div class="p-6">
       <h5 class="text-gray-500 text-xl font-medium lg:mb-2"> accueil de la boutique</h5>
@@ -97,7 +99,7 @@ const Footer = () => {
 <div class="flex justify-center mt-10 lg:mb-5 lg:mr-5">
   <div class="rounded-lg shadow-lg shadow-black bg-slate-900 max-w-sm hover:shadow-lg hover:shadow-yellow-200">
     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-      <Image src={pngcv} class="rounded-t-lg"  alt=""/>
+      <Image src={pngcv} class="rounded-t-lg" />
     </a>
     <div class="p-6">
       <h5 class="text-gray-500 text-xl font-medium mb-2">Création d&rsquo;un cv </h5>
@@ -223,95 +225,7 @@ const Footer = () => {
             
              <Image src={cosmonote} width="250px" height="300px" className="mt-10" />
              <div class="flex justify-center">
-  <div className="border-2 border-slate-500 mt-10 p-5">
-    <div class="mb-3 xl:w-96">
-      <label
-        for="exampleFormControlInput2"
-        class="form-label inline-block mb-2 text-gray-700 text-xl"
-        ></label
-      >
-      <input
-        type="text"
-        class="
-          form-control
-          block
-          w-full
-          px-4
-          py-2
-          text-xl
-          font-normal
-          text-slate-500
-          bg-transparent bg-clip-padding
-          border border-solid border-slate-500
-          rounded
-          transition
-          ease-in-out
-          m-0
-          focus:text-gray-700 focus:bg-white focus:border-yellow-200 focus:outline-none
-        "
-        id="exampleFormControlInput2"
-        placeholder="Nom complet"
-      />
-    </div>
 
-    <div class="mb-3 xl:w-96">
-      <label for="exampleFormControlInpu3" class="form-label inline-block mb-2 text-gray-700"
-        ></label
-      >
-      <input
-        type="text"
-        class="
-          form-control
-          block
-          w-full
-          px-3
-          py-1.5
-          text-base
-          font-normal
-          text-slate-500
-          bg-transparent bg-clip-padding
-          border border-solid border-slate-500
-          rounded
-          transition
-          ease-in-out
-          m-0
-          focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
-        "
-        id="exampleFormControlInput3"
-        placeholder="Mail"
-      />
-    </div>
-
-        <div class="flex justify-center">
-        <div class="mb-3 xl:w-96 bg">
-          <label for="exampleFormControlTextarea1" class="form-label inline-block mb-2 text-gray-700"
-          ></label
-    >
-          <textarea
-            class="
-        form-control
-        block
-        w-full
-        px-3
-        py-1.5
-        text-base
-        font-normal
-        text-slate-500
-        bg-transparent bg-clip-padding
-        border border-solid border-slate-500
-        rounded
-        transition
-        ease-in-out
-        m-0
-        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-            id="exampleFormControlTextarea1"
-          rows="3"
-          placeholder="message"
-        ></textarea>
-          <button type="button" class="inline-block px-6 py-2 border-2 border-slate-500 text-slate-500 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out mt-5">Envoyer</button>
-        </div>
-          </div>
-            </div>
             </div>
             <div className={styles.fontA} id="contacte">
             <i data-aos="zoom-in-down" data-aos-once="false" class="fa-solid fa-link text-7xl flex justify-center hover:text-yellow-200"></i>
@@ -348,9 +262,9 @@ const Footer = () => {
                 </div>
             </div>
             
-</footer>
-  )
-  
- 
-}
+    </footer>
+        );
+          };
+   
+
           export default Footer;
