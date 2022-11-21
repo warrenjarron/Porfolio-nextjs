@@ -39,7 +39,7 @@ let styles = {
   divflexcol:"",
 
   techno:"uppercase border-r-4 border-slate-500 text-slate-500 text-2xl  hover:text-yellow-200 mt-52" ,
-  imgPadding:"mt-10 hover:rotate-6 transition duration-150 hover:bg-slate-200",
+  imgPadding:" mt-10 hover:rotate-6 transition duration-150 hover:bg-slate-200",
   mail:"hover:text-yellow-200",
   Padding:" pt-5",
   Paddingnext:"pt-5 bg-white  hover:rotate-6 transition duration-150 hover:shadow-lg hover:shadow-yellow-200 p-5",
