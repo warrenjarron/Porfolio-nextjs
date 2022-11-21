@@ -13,7 +13,7 @@ const HomePage = () => {
     <Name /> 
    <Me/>
    <Projet/>
-   <Form />
+   {/* <Form /> */}
    <Footer />
     </>
   );
