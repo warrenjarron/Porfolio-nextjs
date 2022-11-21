@@ -13,6 +13,7 @@ module.exports = {
         raleway: ["raleway"],
         great: ["Great Vibes", "cursives"],
         // josefinSans: ["josefin-sans"],
+        montecarlo: ["MonteCarlo", "cursive"],
       },
     },
   },

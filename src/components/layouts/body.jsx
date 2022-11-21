@@ -6,7 +6,7 @@ import ParticlesAnimate from "@src/components/layouts/particles";
 
 
 let styles = {
-    h1: "uppercase text-white font-great text-center text-4xl border-2 border-yellow-100 p-5 bg-slate-500 ",
+    h1: " uppercase text-white font-montecarlo text-center text-7xl border-2 border-yellow-100 p-5 bg-slate-500 lg:text-5xl ",
     h2: "uppercase text-white font-raleway text-center mt-10 text-4xl",
     imgg:"justify-center",
     textcolor:"text-white font-raleway    text-start pl-2 p-3 w-60 border-2 border-slate-500 lg:ml-52 md:ml-10 hover:shadow-lg hover:shadow-yellow-200",
@@ -18,7 +18,7 @@ let styles = {
 const Name = () => {
     return (
 <>
-<h1 className={styles.h1}>warren jarron </h1>
+<h1 className={styles.h1}>Warren  Jarron </h1>
 <h2 className={styles.h2}><span className="text-yellow-200">D</span>éveloppeur we<span className="text-yellow-200">b</span>&nbsp;<span className="text-yellow-200"><Typing />
     </span>
 </h2>
