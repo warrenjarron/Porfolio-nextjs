@@ -1,5 +1,5 @@
 let styles = {
-    projet:" uppercase border-r-4 border-slate-500 text-slate-500  text-center mt-52 hover: flex justify-center hover:text-yellow-200 text-4xl lg:text-7xl" ,
+    projet:" uppercase border-r-4 border-slate-500 text-slate-500  text-center mt-52 hover: flex justify-center hover:text-yellow-200 text-7xl lg:text-7xl" ,
     };
     const Projet = () => {
         return (

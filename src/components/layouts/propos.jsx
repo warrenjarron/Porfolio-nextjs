@@ -3,9 +3,9 @@ import warrenfly from "@src/assets/img/sticker.png";
 
 
 let styles = {
-h1:"text-slate-500 border-r-2 border-slate-500  uppercase text-center text-4xl lg:text-7xl hover:text-yellow-200 mt-10",
+h1:"text-slate-500 border-r-2 border-slate-500  uppercase text-center text-4xl text-7xl hover:text-yellow-200 mt-10",
 gridcols4:" lg:grid lg:grid-cols-2  pt-12 mt-52 text-center",
-p:"text-slate-500 pl-5 text-start mt-10 w-72 text-lg",
+p:"text-slate-500 pl-5 text-start mt-10 w-72 text-lg md:border-r-2 md:border-slate-500 md:p-5",
 fontP:"text-center",
 cv:"border-2 rounded-full p-2 mt-5 text-white border-slate-500 lg:ml-52 md:ml-10 hover:bg-slate-700 hover:shadow-lg hover:shadow-yellow-200",
 };

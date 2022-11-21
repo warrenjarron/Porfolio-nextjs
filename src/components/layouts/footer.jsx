@@ -30,7 +30,7 @@ let styles = {
   skillsh2:"uppercase text-center border-2 border-slate-900 mt-10 ",
   skillsp1:"text-center   pt-10 ",
   skills2h2:"uppercase text-center border-2 border-slate-900 mt-10 ",
-  skills2p2:"text-center p-7 text-slate-500 sm:w-6/12   ",
+  skills2p2:"text-center p-7 text-slate-500 sm:w-6/12  border-r-2 border-slate-500 md:mt-10",
   footer:"justify-center  text-center mt-96 ",
   img:" h-auto hover:rotate-6 transition duration-150 ",
   bg:"text-slate-900 text-xl text-center ",
@@ -38,14 +38,14 @@ let styles = {
   gridcols2:" lg:grid lg:grid-cols-2  pt-12 ",
   divflexcol:"",
 
-  techno:"uppercase border-r-4 border-slate-500 text-slate-500 text-2xl  hover:text-yellow-200 mt-52" ,
+  techno:"uppercase border-r-4 border-slate-500 text-slate-500 text-4xl  hover:text-yellow-200 mt-52" ,
   imgPadding:" mt-10 hover:rotate-6 transition duration-150 hover:bg-slate-200",
-  mail:"hover:text-yellow-200",
+  mail:"hover:text-yellow-200 ",
   Padding:" pt-5",
   Paddingnext:"pt-5 bg-white  hover:rotate-6 transition duration-150 hover:shadow-lg hover:shadow-yellow-200 p-5",
-  soft:"uppercase border-r-4 border-slate-500 text-slate-500 text-2xl flex flex-col h-auto hover:text-yellow-200 lg:text-7xl" ,
+  soft:"uppercase border-r-4 border-slate-500 text-slate-500 text-7xl flex flex-col h-auto hover:text-yellow-200 lg:text-7xl" ,
   link:"uppercase text-4xl text-slate-500 border-t-4 border-slate-500 mt-52 ",
-  compet:"text-slate-500 mt-52 text-4xl uppercase lg:text-7xl  justify-center p-5 hover:text-yellow-200",
+  compet:"text-slate-500 mt-52 text-7xl uppercase lg:text-7xl  justify-center p-5 hover:text-yellow-200",
   gridcol3P:"",
   footC:"text-slate-500 border-t-2 border-slate-500",
   phone:"hover:text-yellow-200",
@@ -91,7 +91,7 @@ const Footer = () => {
       </p>
       <a href="https://wana-agency.netlify.app/">
 
-      <button type="button" class="   inline-block px-6 py-2.5 border-2 border-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-400 hover:shadow-lg focus:bg-bslate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">voir</button>
+      <button type="button" class=" md:mt-4  inline-block px-6 py-2.5 border-2 border-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-400 hover:shadow-lg focus:bg-bslate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">voir</button>
       </a>
     </div>
   </div>
@@ -214,7 +214,7 @@ const Footer = () => {
                 
                 <div className={styles.user}>
 
-                <i data-aos="zoom-in-down" data-aos-once="false" class="fa-solid fa-address-book hover:rotate-90 transition duration-150 hover:text-yellow-200  flex justify-center"></i>
+                <i data-aos="zoom-in-down" data-aos-once="false" class="fa-solid fa-address-book hover:rotate-90 transition duration-150 hover:text-yellow-200  flex justify-center text-7xl"></i>
                 </div>
             <div data-aos="zoom-out-right" data-aos-once="false" className={styles.gridcols2} >
            

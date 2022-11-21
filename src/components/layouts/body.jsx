@@ -6,7 +6,7 @@ import ParticlesAnimate from "@src/components/layouts/particles";
 
 
 let styles = {
-    h1: "  text-white font-montecarlo text-center lg:text-7xl border-2 border-slate-500 p-5  lg:text-5xl ",
+    h1: "  text-white font-montecarlo text-center md:text-5xl lg:text-7xl border-2 border-slate-500 p-5  lg:text-5xl ",
     h2: "uppercase text-white font-raleway text-center mt-10 text-4xl",
     imgg:"justify-center",
     textcolor:"text-white font-raleway  text-xl  text-start pl-2 p-3 lg:w-80 border-2 border-slate-500 lg:ml-52 md:ml-10 hover:shadow-lg hover:shadow-yellow-200",
