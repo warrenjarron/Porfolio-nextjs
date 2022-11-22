@@ -212,7 +212,7 @@ const Footer = () => {
                 
                 <div className={styles.user}>
 
-                <i data-aos="zoom-in-down" data-aos-once="false" class="fa-solid fa-address-book hover:rotate-90 transition duration-150 hover:text-yellow-200  flex justify-center text-7xl"></i>
+                {/* <i data-aos="zoom-in-down" data-aos-once="false" class="fa-solid fa-address-book hover:rotate-90 transition duration-150 hover:text-yellow-200  flex justify-center text-7xl"></i> */}
                 </div>
             <div data-aos="zoom-out-right" data-aos-once="false" className={styles.gridcols2} >
            
@@ -220,8 +220,11 @@ const Footer = () => {
                 <p className={styles.skills2p2}>
                     Adaptabilité / Créativité / rigoureux / Patience / Déterminé  <br />/ curieux / a l&apos;écoute / Coopératif </p>
             </div>
+            <div className="mt-32">
+
+             <Image src={cosmonote} width="250px" height="300px" className="" />
+            </div>
             
-             <Image src={cosmonote} width="250px" height="300px" className="mt-10" />
              <div class="flex justify-center">
 
             </div>
