@@ -86,12 +86,12 @@ const Footer = () => {
     </a>
     <div class="p-6">
       <h5 class="text-gray-500 text-xl font-medium lg:mb-2"> Accueil de la boutique</h5>
-      <p class="text-gray-600 text-base lg:mb-4">
+      <p class="text-gray-600 text-base lg:mb-2">
       Création d&rsquo;une boutique depuis un CMS (Wordpress) en groupe.
       </p>
       <a href="https://wana-agency.netlify.app/">
 
-      <button type="button" class=" md:mt-7  inline-block px-6 py-2.5 border-2 border-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-400 hover:shadow-lg focus:bg-bslate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">voir</button>
+      <button type="button" class=" md:mt-7 lg:mt-1  inline-block px-6 py-2.5 border-2 border-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-400 hover:shadow-lg focus:bg-bslate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">voir</button>
       </a>
     </div>
   </div>
