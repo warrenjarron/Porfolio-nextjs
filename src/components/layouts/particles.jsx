@@ -217,7 +217,7 @@ export const ParticlesAnimate = () => {
       }
     },
     "color": {
-      "value": "#fff",
+      "value": "#e3d77b",
       "animation": {
         "h": {
           "count": 0,

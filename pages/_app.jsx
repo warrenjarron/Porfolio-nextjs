@@ -4,6 +4,8 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 
+
+
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     AOS.init({
@@ -12,7 +14,10 @@ function MyApp({ Component, pageProps }) {
       offset: 50,
     });
   }, []);
+  
+  
   return <Component {...pageProps} />
 }
+
 
 export default MyApp

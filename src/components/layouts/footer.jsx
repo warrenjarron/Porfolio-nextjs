@@ -38,7 +38,7 @@ let styles = {
   gridcols2:" lg:grid lg:grid-cols-2  pt-12 ",
   divflexcol:"",
 
-  techno:"uppercase border-r-4 border-slate-500 text-slate-500 text-4xl  hover:text-yellow-200 mt-52" ,
+  techno:"uppercase  text-slate-500 text-4xl  hover:text-yellow-200 mt-52" ,
   imgPadding:"rounded-lg mt-10 hover:rotate-6 transition duration-150 hover:bg-slate-200",
   mail:"hover:text-yellow-200 ",
   Padding:" pt-5",
@@ -72,7 +72,7 @@ const Footer = () => {
       <p class="text-gray-600 text-base lg:mb-4">
       Dans le but de se projet était de crée une agence fictive en groupe.
       </p>
-      <a href="">
+      <a href="https://wana-shop-saewt1towb.live-website.com/">
       <button type="button" class="md:mb-4 md:mt-5 lg:mt-5 inline-block px-6 py-2.5 border-2 border-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-400 hover:shadow-lg focus:bg-slate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">voir</button>
       </a>
     </div>
@@ -118,8 +118,11 @@ const Footer = () => {
 
           <i  class="fa-solid fa-head-side-virus  hover:text-yellow-200 hover:shadow-lg hover:shadow-yellow-200 hover:rotate-6 transition duration-150"></i>
                   </div>
-                  <h1 data-aos="zoom-in" data-aos-once="false" className={styles.compet}>Compêtences</h1>
-                  <Image src={cosmoread} width="250px" height="300px" />
+                  {/* <h1 data-aos="zoom-in" data-aos-once="false" className={styles.compet}>Compêtences</h1> */}
+                  <div className="mt-20">
+
+                  <Image src={cosmoread} width="250px" height="300px"  />
+                  </div>
                 <div className="flex  justify-center"  data-aos="fade-up-right" data-aos-once="false" >
                   <h1 className={styles.techno}>
                     Technologie utilisé
@@ -164,6 +167,10 @@ const Footer = () => {
                    <Image className={styles.imgPadding} src={svgnode} width="40%" height="49px"  />
                        </div>
                    
+                     <div className={styles.Padding}>
+        
+                  <Image className={styles.imgPadding} src={svgfigma} width="40%" height="40px"  />
+                    </div>
                    
                                   </div>
                    <div className="lg:flex lg:flex-col">
@@ -199,15 +206,6 @@ const Footer = () => {
 
                    <Image className={styles.imgPadding} src={svgillustrator} width="40%" height="40px"  />
                      </div>
-                     <div className={styles.Padding}>
-        
-                  <Image className={styles.imgPadding} src={svgfigma} width="40%" height="40px"  />
-                    </div>
-                      <div className={styles.Padding}>
-
-                        
-                  <Image className={styles.imgPadding} src={svgoffice} width="40%" height="50px"  />
-                      </div>
                     </div>
                        </div>
                   
@@ -249,7 +247,7 @@ const Footer = () => {
                 {/* Col 3 */}
                 <div className={styles.img}>
                   <a href="https://warren-jarron-cv.netlify.app/" rel="noreferrer" target="_blank">
-
+                      warren-jarron-cv.netlify.app
                 <Image src={svgcv}   width="30%" height="30px"  />
                   </a>
                 </div>
