@@ -30,8 +30,8 @@ let styles = {
   skillsh2:"uppercase text-center border-2 border-slate-900 mt-10 ",
   skillsp1:"text-center   pt-10 ",
   skills2h2:"uppercase text-center border-2 border-slate-900 mt-10 ",
-  skills2p2:"text-center p-7 text-slate-500 sm:w-6/12  border-r-2 border-slate-500 md:mt-10",
-  footer:"justify-center  text-center mt-96 ",
+  skills2p2:"text-center p-7 text-slate-500 sm:w-6/12  border-r-2 border-slate-500 md:mt-10 text-xl",
+  footer:"justify-center  text-center mt-96  font-raleway",
   img:" h-auto hover:rotate-6 transition duration-150 ",
   bg:"text-slate-900 text-xl text-center ",
   gridcols4:"   pt-12 ",
@@ -47,7 +47,7 @@ let styles = {
   link:"uppercase text-4xl text-slate-500 border-t-4 border-slate-500 mt-52 ",
   compet:"text-slate-500 mt-52 text-7xl uppercase lg:text-7xl  justify-center p-5 hover:text-yellow-200",
   gridcol3P:"",
-  footC:"text-slate-500 border-t-2 border-slate-500",
+  footC:"text-slate-500  ",
   phone:"hover:text-yellow-200",
   fontA:"mt-52 text-slate-500 hover:rotate-90 transition duration-150",
   user:"text-center mt-60 text-4xl text-slate-500   hover:rotate-6 transition duration-150",
@@ -60,7 +60,7 @@ const Footer = () => {
     
     <footer className={styles.footer}>
     
-          <div data-aos="zoom-in-down" data-aos-once="false"  className=" lg:grid lg:grid-cols-3 ">
+          <div data-aos="zoom-in-down" data-aos-once="false"  className=" lg:grid lg:grid-cols-3  font-raleway">
   
 <div class="flex justify-center mt-10 lg:ml-5 lg:mb-5 lg:mr-5">
   <div class="rounded-lg shadow-lg shadow-black bg-slate-900 max-w-sm hover:shadow-lg hover:shadow-yellow-200">
@@ -79,7 +79,7 @@ const Footer = () => {
   </div>
 </div>
 
-<div class="flex justify-center mt-10 lg:mb-5 lg:mr-5">
+<div class="flex justify-center mt-10 lg:mb-5 lg:mr-5  font-raleway">
   <div class="rounded-lg shadow-lg shadow-black bg-slate-900 max-w-sm hover:shadow-lg hover:shadow-yellow-200">
     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
       <Image src={pngshop} class="rounded-t-lg"/>
@@ -96,7 +96,7 @@ const Footer = () => {
     </div>
   </div>
 </div>
-<div class="flex justify-center mt-10 lg:mb-5 lg:mr-5">
+<div class="flex justify-center mt-10 lg:mb-5 lg:mr-5  font-raleway">
   <div class="rounded-lg shadow-lg shadow-black bg-slate-900 max-w-sm hover:shadow-lg hover:shadow-yellow-200">
     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
       <Image src={pngcv} class="rounded-t-lg" />

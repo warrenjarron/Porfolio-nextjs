@@ -3,11 +3,11 @@ import warrenfly from "@src/assets/img/sticker.png";
 
 
 let styles = {
-h1:"text-slate-500  uppercase text-center text-4xl text-7xl hover:text-yellow-200 mt-10",
+h1:"text-slate-500  uppercase text-center text-4xl text-7xl hover:text-yellow-200 mt-10  font-raleway",
 gridcols4:" lg:grid lg:grid-cols-1  pt-12 mt-52 text-center ",
-p:"text-slate-500 pl-5 text-start mt-10  text-lg  md:p-5",
+p:"text-slate-500 pl-5 text-start mt-10  text-lg  md:p-5 font-raleway",
 fontP:"text-center",
-cv:"border-2 rounded-full p-2 mt-5 text-white border-slate-500 lg:ml-52 md:ml-10 hover:bg-slate-700 hover:shadow-lg hover:shadow-yellow-200",
+cv:"border-2 rounded-full p-2 mt-5 text-white border-slate-500 lg:ml-52 md:ml-10 hover:bg-slate-700 hover:shadow-lg hover:shadow-yellow-200  font-raleway",
 };
 const Me = () => {
     return (
