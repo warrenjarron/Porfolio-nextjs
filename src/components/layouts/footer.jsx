@@ -39,7 +39,7 @@ let styles = {
   divflexcol:"",
 
   techno:"uppercase border-r-4 border-slate-500 text-slate-500 text-4xl  hover:text-yellow-200 mt-52" ,
-  imgPadding:" mt-10 hover:rotate-6 transition duration-150 hover:bg-slate-200",
+  imgPadding:"rounded-lg mt-10 hover:rotate-6 transition duration-150 hover:bg-slate-200",
   mail:"hover:text-yellow-200 ",
   Padding:" pt-5",
   Paddingnext:"pt-5 bg-white  hover:rotate-6 transition duration-150 hover:shadow-lg hover:shadow-yellow-200 p-5",
@@ -69,11 +69,11 @@ const Footer = () => {
     </a>
     <div class="">
       <h5 class="text-gray-500 text-xl font-medium mb-2">Projet Wana agency</h5>
-      <p class="text-gray-600 text-base mb-4">
+      <p class="text-gray-600 text-base lg:mb-4">
       Dans le but de se projet était de crée une agence fictive en groupe.
       </p>
       <a href="">
-      <button type="button" class="mb-5 inline-block px-6 py-2.5 border-2 border-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-400 hover:shadow-lg focus:bg-slate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">voir</button>
+      <button type="button" class="md:mb-4 md:mt-5 lg:mt-5 inline-block px-6 py-2.5 border-2 border-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-400 hover:shadow-lg focus:bg-slate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">voir</button>
       </a>
     </div>
   </div>
@@ -85,13 +85,13 @@ const Footer = () => {
       <Image src={pngshop} class="rounded-t-lg"/>
     </a>
     <div class="p-6">
-      <h5 class="text-gray-500 text-xl font-medium lg:mb-2"> accueil de la boutique</h5>
+      <h5 class="text-gray-500 text-xl font-medium lg:mb-2"> Accueil de la boutique</h5>
       <p class="text-gray-600 text-base lg:mb-4">
       Création d&rsquo;une boutique depuis un CMS (Wordpress) en groupe.
       </p>
       <a href="https://wana-agency.netlify.app/">
 
-      <button type="button" class=" md:mt-4  inline-block px-6 py-2.5 border-2 border-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-400 hover:shadow-lg focus:bg-bslate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">voir</button>
+      <button type="button" class=" md:mt-7  inline-block px-6 py-2.5 border-2 border-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-400 hover:shadow-lg focus:bg-bslate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">voir</button>
       </a>
     </div>
   </div>

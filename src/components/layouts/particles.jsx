@@ -64,8 +64,8 @@ export const ParticlesAnimate = () => {
         "type": "circle"
       },
       "onHover": {
-        "enable": false,
-        "mode": [],
+        "enable": true,
+        "mode": "repulse",
         "parallax": {
           "enable": false,
           "force": 2,
