@@ -25,7 +25,7 @@ puis j&rsquo;ai fait  une  formation digi code qui est une formation organiser p
       </p>
       <a target="_blank" href="/docs/warren-jarron-cv-développeur-web.pdf">
 
-      <button type="button" class=" inline-block px-6 py-2.5  text-slate-500 font-medium text-xs leading-tight uppercase  shadow-md hover:bg-yellow-200 hover:shadow-lg focus:bg-slate-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out border-2 border-slate-500 rounded-full">Mon cv</button>
+      <button type="button" class=" inline-block px-6 py-2.5  text-slate-500 font-medium text-xs leading-tight uppercase  shadow-md hover:bg-yellow-200 hover:shadow-lg focus:bg-slate-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-slate-800 active:shadow-lg transition duration-150 ease-in-out border-2 border-slate-500 rounded-full">Mon cv</button>
       </a>
     </div>
     

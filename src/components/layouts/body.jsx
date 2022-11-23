@@ -30,11 +30,11 @@ const Name = () => {
     </span>
 </h2>
 
-<div class="flex justify-center mt-24 font-raleway">
+<div data-aos="fade-right" data-aos-once="false" class="flex justify-center mt-24 font-raleway">
   <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg border-2 p-10  pr-20  border-slate-500  shadow-lg">
     <Image class=" w-full h-96 md:h-auto object-cover md:w-48 md:rounded-none md:rounded-l-lg " src={war} width="700%" height="500px" alt="" />
     <div class="p-6 flex flex-col justify-start">
-      <p class="text-gray-700 text-base mb-4">
+      <p class="text-slate-500 text-base mb-4">
       Bienvenue sur Mon portfolio, je suis Warren jarron, Actuellement je suis une formation de développeur web et web  mobile chez l&rsquo;ACS (Access Code School).
       </p>
       <div className="grid grid-cols-2">
