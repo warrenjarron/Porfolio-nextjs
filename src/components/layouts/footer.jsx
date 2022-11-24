@@ -60,7 +60,7 @@ const Footer = () => {
     
     <footer className={styles.footer}>
     
-          <div data-aos="zoom-in-down" data-aos-once="false"  className=" lg:grid lg:grid-cols-3  font-raleway">
+          <div data-aos="zoom-in-down"  className=" lg:grid lg:grid-cols-3  font-raleway">
   
 <div class="flex justify-center mt-10 lg:ml-5 lg:mb-5 lg:mr-5">
   <div class="rounded-lg shadow-lg shadow-black bg-slate-900 max-w-sm hover:shadow-lg hover:shadow-yellow-200">
@@ -114,7 +114,7 @@ const Footer = () => {
   </div>
 </div>
             </div>
-            <div className={styles.compfont}>
+            <div  className={styles.compfont}>
 
           <i  class="fa-solid fa-head-side-virus  hover:text-yellow-200 hover:shadow-lg hover:shadow-yellow-200 hover:rotate-6 transition duration-150"></i>
                   </div>
@@ -123,7 +123,7 @@ const Footer = () => {
 
                   <Image src={cosmoread} width="250px" height="300px"  />
                   </div>
-                <div className="flex  justify-center"  data-aos="fade-up-right" data-aos-once="false" >
+                <div className="flex  justify-center"  data-aos="fade-up-right"  >
                   <h1 className={styles.techno}>
                     Technologie utilisé
                     
@@ -214,7 +214,7 @@ const Footer = () => {
 
                 {/* <i data-aos="zoom-in-down" data-aos-once="false" class="fa-solid fa-address-book hover:rotate-90 transition duration-150 hover:text-yellow-200  flex justify-center text-7xl"></i> */}
                 </div>
-            <div data-aos="zoom-out-right" data-aos-once="false" className={styles.gridcols2} >
+            <div data-aos="zoom-out-right"  className={styles.gridcols2} >
            
                 <h1 className={styles.soft}>Soft skills</h1> 
                 <p className={styles.skills2p2}>
@@ -229,9 +229,9 @@ const Footer = () => {
 
             </div>
             <div className={styles.fontA} id="contacte">
-            <i data-aos="zoom-in-down" data-aos-once="false" class="fa-solid fa-link text-7xl flex justify-center hover:text-yellow-200"></i>
+            <i  class="fa-solid fa-link text-7xl flex justify-center hover:text-yellow-200"></i>
             </div>
-            <div data-aos="zoom-out-right" data-aos-once="false"  className={styles.col1}>
+            <div    className={styles.col1}>
                 {/*  Col 1 */}
              
                 <div className={styles.img}>

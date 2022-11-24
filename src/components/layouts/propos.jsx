@@ -12,12 +12,12 @@ cv:"border-2 rounded-full p-2 mt-5 text-white border-slate-500 lg:ml-52 md:ml-10
 const Me = () => {
     return (
    <>
-   <div  class="flex justify-center mt-64 font-raleway">
-  <div data-aos="fade-right" data-aos-once="false"  class="block rounded-lg shadow-lg border-2 border-slate-500 max-w-sm text-center">
+   <div data-aos="fade-right"   class="flex justify-center mt-64 font-raleway">
+  <div  class="block rounded-lg shadow-lg border-2 border-slate-500 max-w-sm text-center">
     <i  class="fa-solid fa-address-card text-slate-500 text-7xl   hover:text-yellow-200 hover:shadow-lg hover:shadow-yellow-200 hover:rotate-90 transition duration-150 mt-5"></i>
-    <div class="py-3 px-6 border-b border-slate-500">
+    <div   class="py-3 px-6 border-b border-slate-500">
     </div>
-    <div class="p-6">
+    <div  class="p-6">
       <h1 class="uppercase text-7xl font-medium mb-2 text-slate-500 ">  à Propos</h1>
       <p class="text-slate-500 text-start mb-4">
       j&rsquo;ai 21 ans j&rsquo;habite a meaux (77). Avant cette formation  j&rsquo;ai fait un CAP SDG (signalétique,décors,graphique)
