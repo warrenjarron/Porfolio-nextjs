@@ -257,6 +257,7 @@ const Footer = () => {
                 <div className={styles.footC}>
 
                 <a className={styles.mail} href="mailto:warrenj.jarron@gmail.com">warrenj.jarron@gmail.com</a>
+                <br /><a className={styles.mail} href="mailto:warrenj@jarron-portfolio.fr">warrenj@jarron-portfolio.fr</a>
                 <br /><a className={styles.phone} href="tel:0658956410"><i class=" fa-solid fa-phone text-xl mt-10 hover:rotate-90 transition duration-150"></i>  tél:0658956410  </a>
                 
                 

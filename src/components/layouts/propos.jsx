@@ -19,11 +19,11 @@ const Me = () => {
     </div>
     <div class="p-6">
       <h1 class="uppercase text-7xl font-medium mb-2 text-slate-500 ">  à Propos</h1>
-      <p class="text-gray-700 text-start mb-4">
+      <p class="text-slate-500 text-start mb-4">
       j&rsquo;ai 21 ans j&rsquo;habite a meaux (77). Avant cette formation  j&rsquo;ai fait un CAP SDG (signalétique,décors,graphique)
 puis j&rsquo;ai fait  une  formation digi code qui est une formation organiser par la mission local pour apprendre les métier du numérique graphiste,developpement web, impression 3D ect , puis j&rsquo;ai  fait une formation qui est  openclassroom pendant 4 mois dans le développement web. Je recherche actuellement un stage du 9 janvier au 3 mars 2023 pour finaliser ma formation et gagné en compêtences.
       </p>
-      <a target="_blank" href="/docs/warren-jarron-cv-développeur-web.pdf">
+      <a target="_blank" href="/my-app/public/docs/warren-jarron-cv-développeur-web.pdf">
 
       <button type="button" class=" inline-block px-6 py-2.5  text-slate-500 font-medium text-xs leading-tight uppercase  shadow-md hover:bg-yellow-200 hover:shadow-lg focus:bg-slate-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-slate-800 active:shadow-lg transition duration-150 ease-in-out border-2 border-slate-500 rounded-full">Mon cv</button>
       </a>
