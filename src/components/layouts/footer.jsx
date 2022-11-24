@@ -24,7 +24,7 @@ import cosmoread from "@src/assets/img/space-suit-reading.png";
 
 let styles = {
   docimg:"",
-  col1:"text-white lg:grid lg:grid-cols-4  text-center p-10  mt-52 border-4  border-slate-500",
+  col1:"text-white lg:grid lg:grid-cols-3  text-center p-10  mt-52 border-4  border-slate-500",
   skills1:"      rounded-xl text-slate-900 mt-20 ",
   skillsh1:"uppercase text-center text-xl pt-5 ",
   skillsh2:"uppercase text-center border-2 border-slate-900 mt-10 ",
@@ -47,8 +47,8 @@ let styles = {
   link:"uppercase text-4xl text-slate-500 border-t-4 border-slate-500 mt-52 ",
   compet:"text-slate-500 mt-52 text-7xl uppercase lg:text-7xl  justify-center p-5 hover:text-yellow-200",
   gridcol3P:"",
-  footC:"text-slate-500  ",
-  phone:"hover:text-yellow-200",
+  footC:"text-slate-500 lg:grid lg:grid-cols-2  text-center mt-10  ml-32 ",
+  phone:"hover:text-yellow-200 ",
   fontA:"mt-52 text-slate-500 hover:rotate-90 transition duration-150",
   user:"text-center mt-60 text-4xl text-slate-500   hover:rotate-6 transition duration-150",
   compfont:"text-7xl mt-60 text-slate-500 ",
@@ -60,7 +60,7 @@ const Footer = () => {
     
     <footer className={styles.footer}>
     
-          <div data-aos="zoom-in-down"  className=" lg:grid lg:grid-cols-3  font-raleway">
+          <div data-aos="zoom-in-down" data-aos-once="false"  className=" lg:grid lg:grid-cols-3  font-raleway">
   
 <div class="flex justify-center mt-10 lg:ml-5 lg:mb-5 lg:mr-5">
   <div class="rounded-lg shadow-lg shadow-black bg-slate-900 max-w-sm hover:shadow-lg hover:shadow-yellow-200">
@@ -96,7 +96,7 @@ const Footer = () => {
     </div>
   </div>
 </div>
-<div class="flex justify-center mt-10 lg:mb-5 lg:mr-5  font-raleway">
+<div data-aos="fade-right" data-aos-once="false" class="flex justify-center mt-10 lg:mb-5 lg:mr-5  font-raleway">
   <div class="rounded-lg shadow-lg shadow-black bg-slate-900 max-w-sm hover:shadow-lg hover:shadow-yellow-200">
     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
       <Image src={pngcv} class="rounded-t-lg" />
@@ -214,7 +214,7 @@ const Footer = () => {
 
                 {/* <i data-aos="zoom-in-down" data-aos-once="false" class="fa-solid fa-address-book hover:rotate-90 transition duration-150 hover:text-yellow-200  flex justify-center text-7xl"></i> */}
                 </div>
-            <div data-aos="zoom-out-right"  className={styles.gridcols2} >
+            <div data-aos="zoom-out-right" data-aos-once="false" className={styles.gridcols2} >
            
                 <h1 className={styles.soft}>Soft skills</h1> 
                 <p className={styles.skills2p2}>
@@ -231,7 +231,7 @@ const Footer = () => {
             <div className={styles.fontA} id="contacte">
             <i  class="fa-solid fa-link text-7xl flex justify-center hover:text-yellow-200"></i>
             </div>
-            <div    className={styles.col1}>
+            <div  className={styles.col1}>
                 {/*  Col 1 */}
              
                 <div className={styles.img}>
@@ -254,15 +254,29 @@ const Footer = () => {
                 <Image src={svgcv}   width="30%" height="30px"  />
                   </a>
                 </div>
+            </div>
                 <div className={styles.footC}>
+                  
+                      <div>
+                    <button>
 
-                <a className={styles.mail} href="mailto:warrenj.jarron@gmail.com">warrenj.jarron@gmail.com</a>
-                <br /><a className={styles.mail} href="mailto:warrenj@jarron-portfolio.fr">warrenj@jarron-portfolio.fr</a>
-                <br /><a className={styles.phone} href="tel:0658956410"><i class=" fa-solid fa-phone text-xl mt-10 hover:rotate-90 transition duration-150"></i>  tél:0658956410  </a>
+                <a className=" " href="mailto:warrenj@jarron-portfolio.fr">warrenj@jarron-portfolio.fr</a>
+                    </button>
+                      </div>
+               <div>
+                   
+
+                <a className={styles.phone} href="tel:0658956410"> 
+                 <i class=" fa-solid fa-phone text-xl  hover:rotate-90 transition duration-150"></i>  tél:0658956410  </a>
+                   
+               </div>
+
+               
+
+              
                 
                 
                 </div>
-            </div>
             
     </footer>
         );

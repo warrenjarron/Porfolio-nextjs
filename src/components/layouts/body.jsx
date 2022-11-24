@@ -10,10 +10,10 @@ let styles = {
     h2: "uppercase text-white font-raleway text-center mt-10 text-4xl",
     imgg:"justify-center",
     textcolor:"text-white font-raleway    text-start pl-2 p-3 md:w-52  lg:w-60  hover:shadow-lg hover:shadow-yellow-200",
-    contact:"border-2 rounded-full p-2 lg:mr- mt-5 text-white border-slate-500  md:ml-10  hover:bg-slate-700 hover:shadow-lg hover:shadow-yellow-200 text-sm  font-raleway",
+    contact:"border-2 rounded-full  p-2 pl-3 pr-3 mt-5 text-white border-slate-500  md:ml-10  sm:text-xs    hover:bg-slate-700 hover:shadow-lg hover:shadow-yellow-200   font-raleway",
     war:"",
     headerbloc:"justify-center lg:grid lg:grid-cols-2 mt-52 md:w-8/12  items-center lg:",
-    savoirPlus:"border-2 rounded-full p-2 w-32 mt-5 text-white border-slate-500  md:ml-10 hover:bg-slate-700 hover:shadow-lg hover:shadow-yellow-200 text-sm   font-raleway ",
+    savoirPlus:"border-2 rounded-full p-2 w-32 ml-20  mt-5 text-white border-slate-500 sm:text-xs md:ml-20 hover:bg-slate-700 hover:shadow-lg hover:shadow-yellow-200    font-raleway ",
     yellowspan:"text-yellow-200",
     head:"justify-center ",
     grid2:"grid grid-cols-2 ",
@@ -30,19 +30,21 @@ const Name = () => {
     </span>
 </h2>
 
-<div data-aos="fade-right" data-aos-once="false" class="flex justify-center mt-24 font-raleway">
-  <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg border-2 p-10  pr-20  border-slate-500  shadow-lg">
+<div  class="flex justify-center mt-24 font-raleway">
+  <div data-aos="fade-right" class="flex flex-col md:flex-row md:max-w-xl rounded-lg border-2 lg:p-10  pr-1  border-slate-500  shadow-lg">
     <Image class=" w-full h-96 md:h-auto object-cover md:w-48 md:rounded-none md:rounded-l-lg " src={war} width="700%" height="500px" alt="" />
-    <div class="p-6 flex flex-col justify-start">
+    <div class="p-5 flex  flex-col justify-start">
       <p class="text-slate-500 text-base mb-4">
       Bienvenue sur Mon portfolio, je suis Warren jarron, Actuellement je suis une formation de développeur web et web  mobile chez l&rsquo;ACS (Access Code School).
       </p>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-3   mr-10">
+<div className="">
 
-      <a href="#contacte">
+      <a href="#contacte" className="">
 <button className={styles.contact}>Contacter</button>
 </a>
-<a  className="ml-5" href="#a propos">
+</div>
+<a  className="ml-" href="#a propos">
 <button className={styles.savoirPlus}>En savoir plus</button>
 </a>
       </div>
@@ -50,6 +52,8 @@ const Name = () => {
   </div>
 </div>
 <ParticlesAnimate/>
+
+
 {/* <div className={styles.head}>
 
 <div data-aos="fade-right" data-aos-once="false" className={styles.headerbloc}>
