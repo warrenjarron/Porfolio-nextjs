@@ -14,7 +14,7 @@ const Me = () => {
 
  
 <div data-aos="fade-right" data-aos-once="false" class="flex justify-center mt-80 font-raleway">
-  <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg border-2 p-10  pr-1 pl-5  border-slate-500  shadow-lg">
+  <div id="a propos" class="flex flex-col md:flex-row md:max-w-xl rounded-lg border-2 p-10  pr-1 pl-5  border-slate-500  shadow-lg">
 <i  class="fa-solid fa-address-card text-slate-500 text-7xl text-center mt-64 hover:text-yellow-200 hover:shadow-lg hover:shadow-yellow-200 hover:rotate-90 transition duration-150"></i>
     <div class="p-5 flex  flex-col justify-start">
     <p className={styles.p}>
