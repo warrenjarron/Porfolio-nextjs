@@ -60,50 +60,6 @@ const Footer = () => {
     
     <footer className={styles.footer}>
   
-         
-                <div className={styles.user}>
-
-                <i data-aos="zoom-in-down" data-aos-once="false" class="fa-solid fa-address-book hover:rotate-90 transition duration-150 hover:text-yellow-200  flex justify-center text-7xl"></i>
-                </div>
-            <div  className={styles.gridcols2} >
-           
-                <h1 className={styles.soft}>Soft skills</h1> 
-                <p className={styles.skills2p2}>
-                    Adaptabilité / Créativité / rigoureux / Patience / Déterminé  <br />/ curieux / a l&apos;écoute / Coopératif </p>
-            </div>
- 
- 
-<div  class="flex justify-center mt-80 font-raleway">
-  <div id="a propos" class="flex flex-col md:p-2 md:flex-row md:max-w-xl rounded-lg border-2 lg:p-10  lg:pr-1 lg:pl-5 mt-64 border-slate-500  shadow-lg">
-    <div class="p-5 flex  flex-col justify-start">
-<i  class="fa-solid fa-address-card text-slate-500 text-7xl text-center  hover:text-yellow-200  hover:rotate-90 transition duration-150"></i>
-    <p className="text-slate-500 justify-center text-sm mt-10">
-      &rsquo;
-      Que ce soit pour me proposer un job, un projet en collaboration ou juste me faire un petit coucou, n&rsquo;hésitez pas à m&rsquo;envoyez un message.
-      <div className="grid grid-cols-2">
-     
-      <input type="text" className="mt-20 w-52" />
-      <input type="text" className="mt-20 w-52"/>
-      <input type="text" className="mt-20 w-96 ml-10" />
-      <div>
-        
-      </div>
-      <button className="text-slate-500 mt-10 border-2 border-slate-500 w-52 ml-32">envoyez </button>
-
-      </div>
-      </p>
-      <div className="grid grid-cols-3 mr-10">
-
-
-<a className="text-center" target="_blank" href="/docs/warren-jarron-cv-développeur-web.pdf">
-
-<button type="button" className={styles.cv}>Mon cv</button>
-</a>
-
-</div>
-</div>
-</div>
-</div>
             <div className="mt-32">
 
              <Image src={cosmonote} width="250px" height="300px" className="" />

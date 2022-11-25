@@ -12,8 +12,8 @@ const Soft = () => {
         <section>
 
                 
-        <i  class="fa-solid fa-address-book hover:rotate-90 transition duration-150 hover:text-yellow-200 text-slate-500 flex justify-center text-7xl"></i>
-        <div data-aos="zoom-out-left" data-aos-once="false" className={styles.gridcols2} >
+        <i  class="fa-solid fa-address-book hover:rotate-90 transition duration-150 hover:text-yellow-200 text-slate-500 flex justify-center text-7xl mt-60"></i>
+        <div data-aos="zoom-out-up" className={styles.gridcols2} >
     
                 <p className={styles.skills2p2}>
                     Adaptabilité / Créativité / rigoureux / Patience / Déterminé  <br />/ curieux / a l&apos;écoute / Coopératif </p>
