@@ -11,9 +11,9 @@ cv:"border-2 rounded-full p-2  lg:p-2 lg:pl-4 lg:pr-4 w-44 mt-5  lg:ml-40 text-c
 };
 const Me = () => {
     return (
-
- 
-<div data-aos="fade-right" data-aos-once="false" class="flex justify-center mt-80 font-raleway">
+      
+      
+      <div data-aos="fade-right" data-aos-once="false" class="flex justify-center mt-80 font-raleway">
   <div id="a propos" class="flex flex-col md:p-2 md:flex-row md:max-w-xl rounded-lg border-2 lg:p-10  lg:pr-1 lg:pl-5 mt-64 border-slate-500  shadow-lg">
     <div class="p-5 flex  flex-col justify-start">
 <i  class="fa-solid fa-address-card text-slate-500 text-7xl text-center  hover:text-yellow-200  hover:rotate-90 transition duration-150"></i>
@@ -28,6 +28,7 @@ const Me = () => {
 
 <button type="button" className={styles.cv}>Mon cv</button>
 </a>
+
 </div>
     </div>
     </div>

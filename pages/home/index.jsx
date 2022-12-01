@@ -6,15 +6,23 @@ import Projet from "@src/components/layouts/projet";
 import Form from "@src/components/layouts/form";
 import Soft from "@src/components/layouts/soft";
 import Compêtence from "@src/components/layouts/competence";
+import Loader from "@src/components/layouts/loader/index.jsx";
 
-
-
-
-
+import React, { useState, useEffect } from "react";
 
 const HomePage = () => {
-  return (
-    <>
+  const [loader, setLoader] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoader(false);
+    }, 3000);
+  }, []);
+  return loader ? (
+   <Loader />
+
+   ): ( <>
+   
     <Name /> 
    <Me/>
    <Projet/>

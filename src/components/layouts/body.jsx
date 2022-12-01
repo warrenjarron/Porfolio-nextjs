@@ -3,6 +3,7 @@ import war from "@src/assets/img/laptop wave.png";
 import Typing from "@src/components/layouts/typeAnimation";
 import { ProductionQuantityLimitsRounded } from "@mui/icons-material";
 import ParticlesAnimate from "@src/components/layouts/particles";
+import warrenfly from "@src/assets/img/sticker.png";
 
 
 let styles = {
@@ -51,6 +52,10 @@ const Name = () => {
     </div>
   </div>
 </div>
+<div className="justify-center flex mt-80">
+
+<Image src={warrenfly} width="400px" height="400px" className=""  />
+</div>
 <ParticlesAnimate/>
 
 
@@ -81,8 +86,8 @@ const Name = () => {
 </>
  
     );     
-
-};
-
-
-export default Name;
+    
+  };
+  
+  
+  export default Name;
