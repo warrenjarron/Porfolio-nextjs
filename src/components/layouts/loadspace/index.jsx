@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
-import Image from "next/image";
-import RocketImg from "../../assets/img/fusee.png";
-import Avion1 from "../../assets/img/avion1.png";
-import Helicopter from "../../assets/img/helicoptere.png";
-import FlyHunter from "../../assets/img/avion-de-chasse.png";
+// import React, { useState, useEffect } from "react";
+// import Image from "next/image";
+// import RocketImg from "../../assets/img/fusee.png";
+// import Avion1 from "../../assets/img/avion1.png";
+// import Helicopter from "../../assets/img/helicoptere.png";
+// import FlyHunter from "../../assets/img/avion-de-chasse.png";
 
 // library framer motion
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 // export const FuséeInterval = () => {
 //   const [show, setShow] = useState(false);
@@ -15,24 +15,24 @@ import { motion } from "framer-motion";
 //       setShow(true);
 //     }, 500);
 //     return () => {
-//       // return rien ou return apres timeout
-//     };
-//   }, []);
+      // return rien ou return apres timeout
+  //   };
+  // }, []);
 
-import { MotionSky } from "../motionSky";
-import { Countdown } from "../countdownLoader";
+// import { MotionSky } from "../motionSky";
+// import { Countdown } from "../countdownLoader";
 
-export const FuséeInterval = () => {
-  return (
-    <>
+// export const FuséeInterval = () => {
+//   return (
+//     <>
       {/* motion SKY animate IMG */}
-      <div className="flex justify-center w-full ">
+      {/* <div className="flex justify-center w-full ">
         <MotionSky />
       </div>
-      <div className="flex w-full h-80 justify-center items-center ">
+      <div className="flex w-full h-80 justify-center items-center "> */}
         {/* styles for decompteur need styles */}
 
-        <motion.div
+        {/* <motion.div
           className="z-20"
           animate={{
             rotate: [
@@ -45,10 +45,10 @@ export const FuséeInterval = () => {
           }}
           transition={{
             times: [0, 1, 1],
-            duration: 5,
+            duration: 3,
           }}
         >
-          <div className="text-2xl font-alice text-white font-bold flex  flex-col items-center shadow-md shadow-blue-400  bg-white/20 p-4 rounded-2xl border-t-4 border-blue-400">
+          <div className="text-2xl font-alice text-white font-bold flex  flex-col items-center shadow-md shadow-blue-400  bg-white/20 p-4 rounded-2xl border-t-4 border-blue-400"> */}
             {/* exemples MOTION  */}
             {/* <motion.div
               style={{
@@ -67,7 +67,7 @@ export const FuséeInterval = () => {
                 backgroundColor: ["#fd3", "#60f", "#fd3"],
               }}
               transition={{ duration: 4, ease: "linear" }}
-            /> */}
+            />
 
             <p className="pb-4">Chargement...</p>
 
@@ -88,9 +88,9 @@ export const FuséeInterval = () => {
           </div>
         </motion.div>
       </div>
-      <div className="flex w-full h-40 items-end justify-center ">
+      <div className="flex w-full h-40 items-end justify-center "> */}
         {/* // fusée 1 */}
-        <div className="-rotate-1">
+        {/* <div className="-rotate-1">
           <motion.div
             animate={{
               y: -1500,
@@ -99,14 +99,14 @@ export const FuséeInterval = () => {
             }}
             transition={{
               delay: 0.5,
-              duration: 4,
+              duration: 3,
             }}
           >
             <Image height="60px" width="60px" src={RocketImg} />
           </motion.div>
-        </div>
+        </div> */}
         {/* // fusée 2 */}
-        <div className="md:px-12 px-6 rotate-1">
+        {/* <div className="md:px-12 px-6 rotate-1">
           <motion.div
             animate={{
               y: -1000,
@@ -120,9 +120,9 @@ export const FuséeInterval = () => {
           >
             <Image height="60px" width="60px" src={RocketImg} />
           </motion.div>
-        </div>
+        </div> */}
         {/* // fusée 3 */}
-        <div className=" -rotate-1">
+        {/* <div className=" -rotate-1">
           <motion.div
             animate={{
               y: -700,
@@ -140,9 +140,9 @@ export const FuséeInterval = () => {
           >
             <Image height="60px" width="60px" src={RocketImg} />
           </motion.div>
-        </div>
+        </div> */}
         {/* fusée 4 */}
-        <div className=" md:pl-12 pl-6 -rotate-1">
+        {/* <div className=" md:pl-12 pl-6 -rotate-1">
           <motion.div
             animate={{
               y: -1200,
@@ -159,8 +159,8 @@ export const FuséeInterval = () => {
           >
             <Image height="60px" width="60px" src={RocketImg} />
           </motion.div>
-        </div>
-      </div>
-    </>
-  );
-};
+        </div> */}
+//       </div>
+//     </>
+//   );
+// };
