@@ -54,7 +54,7 @@ const Name = () => {
 </div>
 <div className="justify-center flex mt-80">
 
-<Image src={warrenfly} width="780px" height="800px" className=""  />
+<Image src={warrenfly} width="400px" height="500px" className=""  />
 </div>
 <ParticlesAnimate/>
 
