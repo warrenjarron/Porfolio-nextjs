@@ -37,7 +37,7 @@ const Compêtence = () => {
             
             <Image src={cosmoread} width="250px" height="300px"  />
             </div>
-            <div className="flex  justify-center"  data-aos="fade-up-right"  >
+            <div className="flex  justify-center"  data-aos="fade-up-right" data-aos-once="false" >
             <h1 className={styles.techno}>
             Technologie utilisé
                       

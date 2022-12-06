@@ -47,7 +47,7 @@ let styles = {
   link:"uppercase text-4xl text-slate-500 border-t-4 border-slate-500 mt-52 ",
   compet:"text-slate-500 mt-52 text-7xl uppercase lg:text-7xl  justify-center p-5 hover:text-yellow-200",
   gridcol3P:"",
-  footC:"text-slate-500 lg:grid lg:grid-cols-2 pb-20 text-center mt-10  lg:ml-32 ",
+  footC:"text-slate-500 lg:grid lg:grid-cols-2 pb-20 text-center mt-10 hover:text-yellow-200 lg:ml-32 ",
   phone:"hover:text-yellow-200 ",
   fontA:"mt-52 text-slate-500 hover:rotate-90 transition duration-150",
   user:"text-center mt-60 text-4xl text-slate-500   hover:rotate-6 transition duration-150",
@@ -98,10 +98,9 @@ const Footer = () => {
                 <div className={styles.footC}>
                   
                       <div>
-                    <button>
+                    
 
                 <a className=" " href="mailto:warrenj@jarron-portfolio.fr">warrenj@jarron-portfolio.fr</a>
-                    </button>
                       </div>
                <div>
                    

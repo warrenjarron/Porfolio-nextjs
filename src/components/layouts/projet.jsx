@@ -12,11 +12,11 @@ let styles = {
         return (
        <>
        <section className={styles.footer}>
-
+       {/* data-aos="zoom-in-down" data-aos-once="false" */}
   <div  className="text-center    items-center grid justify-center" >
     <i  class="text-center mt-72 hover: flex justify-center hover:text-yellow-200 text-7xl lg:text-7xl text-slate-500 fa-solid fa-list-check"></i>
 </div>
-<div data-aos="zoom-in-down" data-aos-once="false"  className=" lg:grid lg:grid-cols-3  font-raleway">
+<div   className=" lg:grid lg:grid-cols-3  font-raleway">
   
   <div class="flex justify-center mt-10 lg:ml-5 lg:mb-5 lg:mr-5">
     <div class="rounded-lg shadow-lg shadow-black bg-slate-900 max-w-sm hover:shadow-lg hover:shadow-yellow-200">

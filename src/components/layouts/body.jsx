@@ -54,35 +54,10 @@ const Name = () => {
 </div>
 <div className="justify-center flex mt-80">
 
-<Image src={warrenfly} width="900px" height="900px" className=""  />
+<Image src={warrenfly} width="780px" height="800px" className=""  />
 </div>
 <ParticlesAnimate/>
 
-
-{/* <div className={styles.head}>
-
-<div data-aos="fade-right" data-aos-once="false" className={styles.headerbloc}>
-<div className={styles.gridimgp}>
-
-<Image  className={styles.war} src={war} width="250px" height="300px"/>
-<div>
-<div>
-<p className={styles.textcolor}>Bienvenue sur Mon portfolio, je suis Warren jarron, Actuellement je suis une formation de développeur web et web  mobile chez l&rsquo;ACS (Access Code School).    </p>
-</div>
-<div className={styles.grid2}>
-
-
-<a href="#contacte">
-<button className={styles.contact}>Contacter</button>
-</a>
-<a  className="ml-5" href="#a propos">
-<button className={styles.savoirPlus}>En savoir plus</button>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div> */}
 </>
  
     );     

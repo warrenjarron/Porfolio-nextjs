@@ -9,11 +9,11 @@ const Soft = () => {
 
         
         
-        <section>
+        <section data-aos="zoom-out-up"  >
 <i class="fa-solid fa-street-view  hover:rotate-90 transition duration-150 hover:text-yellow-200 text-slate-500 flex justify-center text-7xl mt-60"></i>
 {/* <i class="fa-regular fa-user-magnifying-glass hover:rotate-90 transition duration-150 hover:text-yellow-200 text-slate-500 flex justify-center text-7xl mt-60"></i> */}
         {/* <i  class="fa-solid fa-address-book hover:rotate-90 transition duration-150 hover:text-yellow-200 text-slate-500 flex justify-center text-7xl mt-60"></i> */}
-        <div data-aos="zoom-out-up" className={styles.gridcols2} >
+        <div  className={styles.gridcols2} >
     
                 <p className={styles.skills2p2}>
                     Adaptabilité / Créativité / rigoureux / Patience / Déterminé  <br />/ curieux / a l&apos;écoute / Coopératif </p>
