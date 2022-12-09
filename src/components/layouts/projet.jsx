@@ -28,7 +28,7 @@ let styles = {
         <p class="text-gray-600 text-base lg:mb-4">
         Dans le but de se projet était de crée une agence fictive en groupe.
         </p>
-        <a href="https://wana-shop-saewt1towb.live-website.com/">
+        <a href="https://wana-agency.fr/">
         <button type="button" class="  md:mb-4 md:mt-5 lg:mt-5 inline-block px-6 py-2.5 border-2 border-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-400 hover:shadow-lg focus:bg-slate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">voir</button>
         </a>
       </div>
