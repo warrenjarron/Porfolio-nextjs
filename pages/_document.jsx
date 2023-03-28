@@ -29,7 +29,7 @@ export default function Document() {
 <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet"/>
 
    </Head>
-      <body className="font-josefin bg-slate-900 overflow-x-hidden">
+      <body className="font-josefin bg-slate-900 overflow-x-hidden p-5">
         <Main />
         <NextScript />
       </body>
