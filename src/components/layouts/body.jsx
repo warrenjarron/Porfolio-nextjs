@@ -7,7 +7,7 @@ import warrenfly from "@src/assets/img/sticker.png";
 
 
 let styles = {
-    h1: "  text-white font-montecarlo text-center md:text-5xl lg:text-7xl border-2 border-slate-500 p-5  lg:text-5xl ",
+    h1: "  text-white font-montecarlo text-center md:text-5xl xs:text-5xl lg:text-7xl border-2 border-slate-500 p-5  lg:text-5xl ",
     h2: "uppercase text-white font-raleway text-center mt-10 text-4xl",
     imgg:"justify-center",
     textcolor:"text-white font-raleway    text-start pl-2 p-3 md:w-52  lg:w-60  hover:shadow-lg hover:shadow-yellow-200",
