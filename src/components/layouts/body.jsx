@@ -1,9 +1,10 @@
 import Image from "next/image";
-import war from "@src/assets/img/laptop wave.png";
+import war from "@src/assets/img/laptop-war.png";
 import Typing from "@src/components/layouts/typeAnimation";
 import { ProductionQuantityLimitsRounded } from "@mui/icons-material";
 import ParticlesAnimate from "@src/components/layouts/particles";
 import warrenfly from "@src/assets/img/sticker.png";
+
 
 
 let styles = {
@@ -33,7 +34,7 @@ const Name = () => {
 
 <div  class="flex justify-center mt-24 font-raleway">
   <div data-aos="fade-right" class="flex flex-col md:flex-row md:max-w-xl rounded-lg border-2 lg:p-10  pr-1  border-slate-500  shadow-lg">
-    <Image class=" w-full h-96 md:h-auto object-cover md:w-48 md:rounded-none md:rounded-l-lg " src={war} width="700%" height="500px" alt="" />
+    <Image class=" w-full h-96 md:h-auto object-cover   xs:w-80  md:w-48 md:rounded-none md:rounded-l-lg " src={war} width="700" height="500px" alt="" />
     <div class="p-5 flex  flex-col justify-start">
       <p class="text-slate-500 text-base mb-4 pl-10">
       Bienvenue sur Mon portfolio, je suis Warren jarron, Actuellement je suis une formation de développeur web et web  mobile chez l&rsquo;ACS (Access Code School).
