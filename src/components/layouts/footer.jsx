@@ -100,7 +100,7 @@ const Footer = () => {
                       <div>
                     
 
-                <a className=" " href="mailto:warrenj@jarron-portfolio.fr">warrenj@jarron-portfolio.fr</a>
+                <a className=" " href="mailto:warrenj.jarron@gmail.com">warrenj.jarron@gmail.com</a>
                       </div>
                <div>
                    

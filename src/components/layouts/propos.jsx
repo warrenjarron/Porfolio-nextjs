@@ -24,7 +24,7 @@ const Me = () => {
       <div className="grid grid-cols-3 mr-10">
 
 
-<a className="text-center" target="_blank" href="/docs/warren-jarron-cv-développeur-web.pdf">
+<a className="text-center" target="_blank" href="/docs/warren-jarron-cv-développeur-web-front-end.pdf">
 
 <button type="button" className={styles.cv}>Mon cv</button>
 </a>
