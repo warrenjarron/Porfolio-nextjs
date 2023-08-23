@@ -18,8 +18,8 @@ const Me = () => {
     <div class="p-5 flex  flex-col justify-start">
 <i  class="fa-solid fa-address-card text-slate-500 text-7xl text-center  hover:text-yellow-200  hover:rotate-90 transition duration-150"></i>
     <p className={styles.p}>
-      j&rsquo;ai 21 ans j&rsquo;habite a meaux (77). Avant cette formation  j&rsquo;ai fait un CAP SDG signalétique,décors,graphique
-        puis j&rsquo;ai fait  une  formation digi code qui est une formation organiser par la mission local pour apprendre les métier du numérique graphiste,developpement web, impression 3D ect , puis j&rsquo;ai  fait une formation qui est  openclassroom pendant 4 mois dans le développement web. Je recherche actuellement un stage du 9 janvier au 3 mars 2023 pour finaliser ma formation et gagné en compêtences.
+      j&rsquo;ai 22 ans j&rsquo;habite a meaux (77). Avant cette formation  j&rsquo;ai fait un CAP SDG signalétique,décors,graphique
+        puis j&rsquo;ai fait  une  formation digi code qui est une formation organiser par la mission local pour apprendre les métier du numérique graphiste,developpement web, impression 3D ect , puis j&rsquo;ai  fait une formation qui est  openclassroom pendant 4 mois dans le développement web puis j&rsquo;ai fait une autre formation de développeur web et web mobile de 9 mois avec 2 mois de stage. Je recherche actuellement un emploi pour gagné en compêtences et améliorer mes compêtences actuel.
       </p>
       <div className="grid grid-cols-3 mr-10">
 

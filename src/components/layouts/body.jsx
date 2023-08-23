@@ -8,7 +8,7 @@ import warrenfly from "@src/assets/img/sticker.png";
 
 
 let styles = {
-    h1: "  text-white font-montecarlo text-center md:text-5xl xs:text-5xl lg:text-7xl border-2 border-slate-500 p-5  lg:text-5xl ",
+    h1: "  text-white font-montecarlo text-center  xs:text-5xl md:text-5xl  lg:text-7xl border-2 border-slate-500 text-5xl p-5",
     h2: "uppercase text-white font-raleway text-center mt-10 text-4xl",
     imgg:"justify-center",
     textcolor:"text-white font-raleway    text-start pl-2 p-3 md:w-52  lg:w-60  hover:shadow-lg hover:shadow-yellow-200",
@@ -37,7 +37,7 @@ const Name = () => {
     <Image class=" w-full h-96 md:h-auto object-cover   xs:w-80  md:w-48 md:rounded-none md:rounded-l-lg " src={war} width="700" height="500px" alt="" />
     <div class="p-5 flex  flex-col justify-start">
       <p class="text-slate-500 text-base mb-4 pl-10">
-      Bienvenue sur Mon portfolio, je suis Warren jarron, Actuellement je suis une formation de développeur web et web  mobile chez l&rsquo;ACS (Access Code School).
+      Bienvenue sur Mon portfolio, je suis Warren jarron, je vous laisse me découvrir.
       </p>
       <div className="grid grid-cols-3   mr-10">
 <div className="">
