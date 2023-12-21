@@ -85,7 +85,7 @@ const Footer = () => {
         {/* Col 2 */}
         <div className={styles.img}>
           <a
-            href="www.linkedin.com/in/warren-jarron-78950929b"
+            href="https://www.linkedin.com/in/warren-jarron-78950929b/?originalSubdomain=fr"
             rel="noreferrer"
             target="_blank"
           >
