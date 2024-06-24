@@ -54,7 +54,7 @@ const Projet = () => {
                   Accueil du site
                 </h5>
                 <p class="text-gray-600 text-base lg:mb-4 mb-4">
-                  Refonte graphique d&rsquo;un site d'entreprise de signalétique CMS (Wordpress) que j'ai re fait.
+                  Refonte graphique d&rsquo;un site d'entreprise de signalétique CMS (Wordpress).
                 </p>
                 <a href="https://www.visiondecor.fr/">
                   <button

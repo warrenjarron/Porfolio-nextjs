@@ -39,7 +39,7 @@ const Compêtence = () => {
             </div>
             <div className="flex  justify-center"  data-aos="fade-up-right" data-aos-once="false" >
             <h1 className={styles.techno}>
-            Technologie utilisé
+            {/* // Technologie utilisé // */}
                       
                     </h1>
                     

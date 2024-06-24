@@ -41,3 +41,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 <!-- POUR PUSH  clic droit  dossier my-app puis utiliser le terminal faire git add . puis git commit -m "update" en dernier git push origin main puis fini  -->
+
+<!-- METTRE EN COMMENTAIRE TEXTE  CTRL + / -->
