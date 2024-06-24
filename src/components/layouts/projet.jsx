@@ -51,7 +51,7 @@ const Projet = () => {
               <div class="p-6">
                 <h5 class="text-gray-500 text-xl font-medium lg:mb-2">
                   {" "}
-                  Accueil de la site
+                  Accueil du site
                 </h5>
                 <p class="text-gray-600 text-base lg:mb-4 mb-4">
                   Refonte graphique d&rsquo;un site d'entreprise de signalétique CMS (Wordpress) que j'ai re fait.

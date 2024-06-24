@@ -36,4 +36,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 <!-- */  pour pouvoir modifier mon site il faut que j'aille dans src/compents  \* -->
 
+
 <!-- POUR LANCER EN LOCAL npm run dev  -->
+
+
+<!-- POUR PUSH  clic droit  dossier my-app puis utiliser le terminal faire git add . puis git commit -m "update" en dernier git push origin main puis fini  -->
