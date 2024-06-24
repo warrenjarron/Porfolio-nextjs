@@ -3,6 +3,7 @@ import pngagency from "@src/assets/img/wana-agency-img.png";
 import pngshop from "@src/assets/img/wana-shop-img.png";
 import svgcv from "@src/assets/img/resume.svg";
 import pngcv from "@src/assets/img/cv-site.png";
+import pngvd from "@src/assets/img/site-vision-decor.png";
 
 let styles = {
   projet:
@@ -31,7 +32,7 @@ const Projet = () => {
                   le but de se projet était de crée une agence fictive en
                   groupe.
                 </p>
-                <a href="https://wana-agency.fr/">
+                <a href="https://wana-agency.netlify.app/">
                   <button
                     type="button"
                     class="   md:mt-7  lg:mt-1 inline-block px-6 py-2.5 border-2 border-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-400 hover:shadow-lg focus:bg-slate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
@@ -45,18 +46,17 @@ const Projet = () => {
           <div class="flex justify-center mt-10 lg:mb-5 lg:mr-5  font-raleway">
             <div class="rounded-lg shadow-lg shadow-black bg-slate-900 max-w-sm hover:shadow-lg hover:shadow-yellow-200">
               <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                <Image src={pngshop} class="rounded-t-lg" />
+                <Image src={pngvd} class="rounded-t-lg" />
               </a>
               <div class="p-6">
                 <h5 class="text-gray-500 text-xl font-medium lg:mb-2">
                   {" "}
-                  Accueil de la boutique
+                  Accueil de la site
                 </h5>
                 <p class="text-gray-600 text-base lg:mb-4 mb-4">
-                  Création d&rsquo;une boutique depuis un CMS (Wordpress) en
-                  groupe.
+                  Refonte graphique d&rsquo;un site d'entreprise de signalétique CMS (Wordpress) que j'ai re fait.
                 </p>
-                <a href="https://wana-agency.netlify.app/">
+                <a href="https://www.visiondecor.fr/">
                   <button
                     type="button"
                     class=" md:mt-7 lg:mt-1  inline-block px-6 py-2.5 border-2 border-slate-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-400 hover:shadow-lg focus:bg-bslate-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
